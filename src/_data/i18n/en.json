@@ -269,8 +269,6 @@
     "licence": "Pictures CC BY-SA 4.0"
   },
   "stub": {
-    "imprint": "Imprint",
-    "privacy": "Privacy",
     "text": "TBD: this page follows once the preconditions of issue 472 are settled."
   },
   "pg_clubs": {
@@ -427,5 +425,73 @@
     "src_title": "Source code and print files",
     "src_text": "The repository with source code, print files and bill of materials is not public yet. On request we hand everything out; write to us.",
     "src_btn": "Request by e-mail"
+  },
+  "pg_imprint": {
+    "eyebrow": "Legal",
+    "title": "Imprint",
+    "sections": [
+      {
+        "t": "Information pursuant to § 5 DDG",
+        "p": [
+          "Simon Gerlach",
+          "Ahornring 28",
+          "38553 Wasbüttel, Germany"
+        ]
+      },
+      {
+        "t": "Contact",
+        "p": [
+          "E-mail: gerlx.studio@gmail.com"
+        ]
+      },
+      {
+        "t": "Liability for content and links",
+        "p": [
+          "The content of this site was prepared with care. The operators of linked external sites are solely responsible for those sites."
+        ]
+      },
+      {
+        "t": "Copyright",
+        "p": [
+          "The GAMiq software is licensed under GPL-3.0-or-later, print files and pictures under CC BY-SA 4.0."
+        ]
+      }
+    ]
+  },
+  "pg_privacy": {
+    "eyebrow": "Legal",
+    "title": "Privacy",
+    "sections": [
+      {
+        "t": "Controller",
+        "p": [
+          "Simon Gerlach, Ahornring 28, 38553 Wasbüttel, Germany, e-mail: gerlx.studio@gmail.com"
+        ]
+      },
+      {
+        "t": "What this site does and does not do",
+        "p": [
+          "This site sets no cookies, uses no analytics or tracking services and loads no fonts, scripts or images from third-party servers. There is no form that sends data to a server."
+        ]
+      },
+      {
+        "t": "Hosting",
+        "p": [
+          "The site is hosted on GitHub Pages (GitHub Inc., a subsidiary of Microsoft Corporation, USA). When you open a page, the host processes technically necessary connection data, mainly the IP address, date and time and the page requested. This is done so that the page can be delivered (Art. 6(1)(f) GDPR). I have no access to this data. See GitHub's privacy statement for details."
+        ]
+      },
+      {
+        "t": "Contact by e-mail",
+        "p": [
+          "The button in the contact block only opens your own mail program with a prepared message. The site sends and stores nothing. If you write to me by e-mail, I process your details to answer the request (Art. 6(1)(b) or (f) GDPR) and delete them when the matter is settled and no retention duty applies."
+        ]
+      },
+      {
+        "t": "Your rights",
+        "p": [
+          "You have the right of access, rectification, erasure, restriction of processing, data portability and objection. Write to the address above. You can complain to a data protection supervisory authority; in Lower Saxony this is the State Commissioner for Data Protection."
+        ]
+      }
+    ]
   }
 }

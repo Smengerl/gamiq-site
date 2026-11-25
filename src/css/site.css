@@ -142,3 +142,4 @@ header.pghead{padding:var(--sp-12) 0 var(--sp-6)}
 .faq summary{cursor:pointer;font-weight:700;min-height:var(--touch);display:flex;align-items:center}
 .faq p{color:var(--muted);margin:var(--sp-2) 0 var(--sp-3)}
 .card a{display:inline-block;margin-top:var(--sp-2);color:var(--accent)}
+.legal{max-width:46em}.legal h2{font-size:var(--fs-24);margin:var(--sp-8,32px) 0 var(--sp-2)}.legal p{color:var(--muted);margin:0 0 var(--sp-2)}
