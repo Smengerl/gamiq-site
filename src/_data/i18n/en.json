@@ -165,14 +165,11 @@
             "p": "clock_run"
           },
           {
-            "t": "Score home",
-            "p": "home"
-          },
-          {
-            "t": "Score guest",
-            "p": "guest"
+            "t": "Score",
+            "p": "score"
           }
-        ]
+        ],
+        "claim": "2 GAMiq + 1 tablet"
       },
       {
         "name": "Midi",
@@ -184,26 +181,24 @@
             "p": "shot_run"
           },
           {
-            "t": "Score home",
-            "p": "home"
+            "t": "Score",
+            "p": "score"
           },
           {
             "t": "Game time + possession",
             "p": "clock_run"
           },
           {
-            "t": "Score guest",
-            "p": "guest"
-          },
-          {
             "t": "Shot clock guest",
             "p": "shot_run"
           }
-        ]
+        ],
+        "claim": "4 GAMiq + 1 tablet"
       }
     ],
     "maxi": {
-      "name": "Maxi"
+      "name": "Maxi",
+      "claim": "5 GAMiq + 3 phones"
     }
   },
   "roles": {

@@ -165,14 +165,11 @@
             "p": "clock_run"
           },
           {
-            "t": "Punkte Heim",
-            "p": "home"
-          },
-          {
-            "t": "Punkte Gast",
-            "p": "guest"
+            "t": "Punkte",
+            "p": "score"
           }
-        ]
+        ],
+        "claim": "2 GAMiq + 1 Tablet"
       },
       {
         "name": "Midi",
@@ -184,26 +181,24 @@
             "p": "shot_run"
           },
           {
-            "t": "Punkte Heim",
-            "p": "home"
+            "t": "Punkte",
+            "p": "score"
           },
           {
             "t": "Spielzeit + Ballbesitz",
             "p": "clock_run"
           },
           {
-            "t": "Punkte Gast",
-            "p": "guest"
-          },
-          {
             "t": "Wurfuhr Gast",
             "p": "shot_run"
           }
-        ]
+        ],
+        "claim": "4 GAMiq + 1 Tablet"
       }
     ],
     "maxi": {
-      "name": "Maxi"
+      "name": "Maxi",
+      "claim": "5 GAMiq + 3 Handys"
     }
   },
   "roles": {

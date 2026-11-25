@@ -32,10 +32,12 @@
 
 <section id="ausbau" class="alt"><div class="wrap">
  <div class="eyebrow">{{ t.build.eyebrow }}</div><h2>{{ t.build.title }}</h2><p class="sub">{{ t.build.sub }}</p>
- {% for c in t.build.configs %}<div class="max cfg"><h3>{{ c.name }}</h3><p>{{ c.d }}</p>
-  <div class="row">{% for u in c.units %}<figure>{{ pnl(u.p, "") }}<figcaption><b>{{ u.t }}</b></figcaption></figure>{% endfor %}<figure class="tab">{{ phone("game", c.tablet) }}<figcaption><b>{{ c.tablet }}</b></figcaption></figure></div></div>{% endfor %}
+ {% for c in t.build.configs %}{% set n = c.units | length + 1 %}<div class="max cfg"><div class="ch"><h3>{{ c.name }}</h3><span class="claim">{{ c.claim }}</span></div><p>{{ c.d }}</p>
+  <div class="flat" style="--n:{{ n }}"><div class="row">{% for u in c.units %}<figure>{{ pnl(u.p, "") }}<figcaption><b>{{ u.t }}</b></figcaption></figure>{% endfor %}<figure class="tab">{{ phone("game", c.tablet) }}<figcaption><b>{{ c.tablet }}</b></figcaption></figure></div>
+  <div class="fnet"><svg viewBox="0 0 100 40" preserveAspectRatio="none" aria-hidden="true">{% for k in range(0, n) %}<line x1="{{ (k + 0.5) * 100 / n }}" y1="0" x2="{{ (k + 0.5) * 100 / n }}" y2="20"/>{% endfor %}<line x1="{{ 50 / n }}" y1="20" x2="{{ 100 - 50 / n }}" y2="20"/></svg>
+  <div class="wifi"><svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" aria-hidden="true"><path d="M2.5 9a14 14 0 0 1 19 0"/><path d="M5.5 12.5a9.5 9.5 0 0 1 13 0"/><path d="M8.7 16a5 5 0 0 1 6.6 0"/><circle cx="12" cy="19.5" r="1" fill="#ff9a1a"/></svg></div></div></div></div>{% endfor %}
  <div class="max">
-  <h3>{{ t.build.maxi.name }}</h3>
+  <div class="ch"><h3>{{ t.build.maxi.name }}</h3><span class="claim">{{ t.build.maxi.claim }}</span></div>
   {%- set ps = ["shot_run","home","clock_run","guest","shot_run"] %}
   <div class="p5">{% for u in t.build.units %}<figure>{{ pnl(ps[loop.index0], "") }}<figcaption><b>{{ u.t }}</b>{{ u.d }}</figcaption></figure>{% endfor %}</div>
   <div class="net"><svg viewBox="0 0 100 150" preserveAspectRatio="none" aria-hidden="true">
