@@ -122,9 +122,9 @@
   "soon_link": "Tell us."
  },
  "build": {
-  "eyebrow": "Full build · example basketball",
-  "title": "Five displays, three phones",
-  "sub": "This is a basketball court in the largest build: a shot clock at each basket, the game time in the middle, one display each for home and guest. All units and all phones sit on the same Wi-Fi and stay in sync over it. Two displays are the normal case; the roles are freely set.",
+  "eyebrow": "From a first set to the full build · example basketball",
+  "title": "From two displays to five displays and three phones",
+  "sub": "You start with two or three displays, for example shot clock, game time and score. The largest build looks like this: a shot clock at each basket, the game time in the middle, one display each for home and guest. All units and all phones sit on the same Wi-Fi and stay in sync over it. The roles are freely set, and a display can be added at any time.",
   "wifi": "Wi-Fi · all in sync",
   "units": [
    {

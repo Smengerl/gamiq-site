@@ -122,9 +122,9 @@
   "soon_link": "Sagt es uns."
  },
  "build": {
-  "eyebrow": "Maximalausbau · Beispiel Basketball",
-  "title": "Fünf Anzeigen, drei Handys",
-  "sub": "So sieht ein Basketballfeld in der größten Ausbaustufe aus: eine Wurfuhr an jedem Korb, in der Mitte die Spielzeit, dazu je eine Anzeige für Heim und für Gast. Alle Einheiten und alle Handys hängen im selben WLAN und sind darüber synchron. Zwei Anzeigen sind der Normalfall, die Rollen sind frei einstellbar.",
+  "eyebrow": "Vom Einstieg bis zum Maximalausbau · Beispiel Basketball",
+  "title": "Von zwei Anzeigen bis fünf Anzeigen und drei Handys",
+  "sub": "Los geht es mit zwei bis drei Anzeigen, etwa Wurfuhr, Spielzeit und Punktestand. Die größte Ausbaustufe sieht so aus: eine Wurfuhr an jedem Korb, in der Mitte die Spielzeit, dazu je eine Anzeige für Heim und für Gast. Alle Einheiten und alle Handys hängen im selben WLAN und sind darüber synchron. Die Rollen sind frei einstellbar, jederzeit kann eine Anzeige dazukommen.",
   "wifi": "WLAN · alle synchron",
   "units": [
    {
