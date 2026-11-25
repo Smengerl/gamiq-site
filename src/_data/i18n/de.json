@@ -83,7 +83,7 @@
       },
       {
         "t": "Selbst organisiert",
-        "d": "Die Anzeigen finden einander und einigen sich, welche das Spiel führt. Neue Software kommt ohne Kabel per WLAN."
+        "d": "Die Anzeigen synchronisieren sich automatisch untereinander, eine führt das Spiel. Neue Software kommt ohne Kabel per WLAN."
       },
       {
         "t": "Mehrere Felder in einem WLAN",
@@ -328,7 +328,7 @@
       },
       {
         "t": "Aufbauen ohne Fachwissen",
-        "d": "Aufstellen, einschalten, QR-Code scannen. Die Anzeigen finden einander und einigen sich selbst, ein Kabel zwischen den Einheiten braucht es nicht."
+        "d": "Aufstellen, einschalten, QR-Code scannen. Die Anzeigen verbinden sich mit dem WLAN und synchronisieren sich automatisch untereinander, ein Kabel zwischen den Einheiten braucht es nicht."
       },
       {
         "t": "Keine Lizenzkosten",
@@ -336,7 +336,7 @@
       },
       {
         "t": "Bedienen mit dem Handy",
-        "d": "Bis zu drei Handys bedienen gleichzeitig, zum Beispiel Wurfuhr, Spielzeit und Punkte an drei Kampfrichter verteilt. Oder ein Tablet für alles."
+        "d": "Steuern Sie alle verbundenen Anzeigen vom Tablet oder Handy, mit bis zu 3 Geräten gleichzeitig, zum Beispiel Wurfuhr, Spielzeit und Punkte an drei Kampfrichter verteilt."
       }
     ],
     "need_title": "Das braucht ihr",

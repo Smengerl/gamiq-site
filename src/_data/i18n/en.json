@@ -83,7 +83,7 @@
       },
       {
         "t": "Organises itself",
-        "d": "The displays find each other and agree which one runs the game. New software arrives over Wi-Fi without a cable."
+        "d": "The displays synchronise with each other automatically, and one of them runs the game. New software arrives over Wi-Fi without a cable."
       },
       {
         "t": "Several courts on one Wi-Fi",
@@ -328,7 +328,7 @@
       },
       {
         "t": "Set up without expertise",
-        "d": "Put them up, switch them on, scan the QR code. The displays find each other and agree by themselves; no cable between units."
+        "d": "Put them up, switch them on, scan the QR code. The displays join the Wi-Fi and synchronise with each other automatically; no cable between units."
       },
       {
         "t": "No licence fees",
@@ -336,7 +336,7 @@
       },
       {
         "t": "Operate by phone",
-        "d": "Up to three phones operate at once, for example shot clock, game time and score shared between three officials. Or one tablet for everything."
+        "d": "Control all connected displays from a tablet or phone, with up to 3 devices at once, for example shot clock, game time and score shared between three officials."
       }
     ],
     "need_title": "What you need",
