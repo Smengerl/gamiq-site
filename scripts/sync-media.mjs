@@ -1,4 +1,5 @@
 // Copies panel renders and phone screenshots from the gamiq repository and makes web photos. Originals stay there.
+// tablet_mini.png and tablet_midi.png in src/assets/phone are not copied from there: they are the real page at 820 px width (all parts side by side), cropped, kept in this repository.
 import { copyFileSync, mkdirSync } from "node:fs";
 import { resolve } from "node:path";
 import sharp from "sharp";

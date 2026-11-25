@@ -153,3 +153,5 @@ header.pghead{padding:var(--sp-12) 0 var(--sp-6)}
 .flat{max-width:calc(var(--n)*140px);margin:0 auto}.flat .row{display:grid;grid-template-columns:repeat(var(--n),1fr);gap:0}.flat figure,.flat figure.tab{width:auto;padding:0 var(--sp-2)}
 .fnet{position:relative;height:56px}.fnet svg:first-child{display:block;width:100%;height:100%}.fnet line{stroke:var(--accent);stroke-width:2;vector-effect:non-scaling-stroke}
 .fnet .wifi{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:48px;height:48px;border-radius:50%;background:#050505;border:var(--stroke) solid var(--accent);display:grid;place-items:center}.fnet .wifi svg{width:26px;height:26px}.fnet .wifi svg path{stroke:var(--accent);stroke-width:2.2}
+
+.flat{max-width:calc(var(--u)*140px + 300px)}.flat .row{grid-template-columns:repeat(var(--u),1fr) 2fr;align-items:start}.flat figure.tab .tabc{border-radius:12px}.fnet .wifi{left:calc((var(--u) + 1.5) * 50% / (var(--u) + 2))}
