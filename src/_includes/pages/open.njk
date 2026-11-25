@@ -1,0 +1,5 @@
+<header class="pghead"><div class="wrap"><div class="eyebrow">{{ pg.eyebrow }}</div><h1 style="font-size:var(--fs-36)">{{ pg.title }}</h1><p class="lead">{{ pg.sub }}</p></div></header>
+<section><div class="wrap"><h2>{{ pg.lic_title }}</h2><div class="grid two">{% for i in pg.lic %}<div class="card"><b>{{ i.t }}</b><p>{{ i.d }}</p></div>{% endfor %}</div></div></section>
+{%- set links = ["https://smengerl.github.io/gamiq-releases/" + P.L.lang + "/", "https://github.com/Smengerl/gamiq-releases/releases"] %}
+<section class="alt"><div class="wrap"><h2>{{ pg.get_title }}</h2><div class="grid two">{% for c in pg.cards %}<div class="card"><b>{{ c.t }}</b><p>{{ c.d }}</p><a href="{{ links[loop.index0] }}">{{ c.l }}</a></div>{% endfor %}</div></div></section>
+<section><div class="wrap"><h2>{{ pg.src_title }}</h2><p class="sub">{{ pg.src_text }}</p><a class="btn s" href="../#kontakt">{{ pg.src_btn }}</a></div></section>

@@ -1,0 +1,6 @@
+<header class="pghead"><div class="wrap"><div class="eyebrow">{{ pg.eyebrow }}</div><h1 style="font-size:var(--fs-36)">{{ pg.title }}</h1><p class="lead">{{ pg.sub }}</p></div></header>
+<section><div class="wrap"><h2>{{ pg.why_title }}</h2><div class="grid">{% for i in pg.why %}<div class="card"><div class="ic">{{ loop.index }}</div><b>{{ i.t }}</b><p>{{ i.d }}</p></div>{% endfor %}</div></div></section>
+<section class="alt"><div class="wrap"><h2>{{ pg.need_title }}</h2><ul class="tick">{% for i in pg.need %}<li>{{ i }}</li>{% endfor %}</ul></div></section>
+<section><div class="wrap"><h2>{{ pg.day_title }}</h2><ol class="steps five">{% for i in pg.day %}<li><b>{{ i.t }}</b><span>{{ i.d }}</span></li>{% endfor %}</ol></div></section>
+<section class="alt"><div class="wrap"><h2>{{ pg.faq_title }}</h2><div class="faq">{% for i in pg.faq %}<details><summary>{{ i.q }}</summary><p>{{ i.a }}</p></details>{% endfor %}</div></div></section>
+<section><div class="wrap"><h2>{{ pg.cta_title }}</h2><p class="sub">{{ pg.cta_text }}</p><a class="btn p" href="../#kontakt">{{ pg.cta_btn }}</a></div></section>

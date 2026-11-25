@@ -1,275 +1,431 @@
 {
- "meta": {
-  "lang": "de",
-  "name": "Deutsch",
-  "title": "GAMiq – Das Anzeigesystem für Hallen und Vereine",
-  "description": "Vernetzte LED-Anzeigen für Basketball und Training. Ohne Server, ohne App, ohne Lizenzkosten."
- },
- "nav": {
-  "steps": "Spieltag",
-  "types": "Spielarten",
-  "build": "Ausbau",
-  "operate": "Bedienung",
-  "hardware": "Hardware",
-  "open": "Offen & Anleitung",
-  "contact": "Kontakt",
-  "manual": "Anleitung",
-  "imprint": "Impressum",
-  "privacy": "Datenschutz",
-  "other_lang": "English",
-  "other_lang_code": "en"
- },
- "hero": {
-  "eyebrow": "Das Anzeigesystem für Hallen und Vereine",
-  "h1": "Ein System. Jedes Spiel.",
-  "lead": "Vernetzte LED-Anzeigen, die für jede Sportart zeigen, was zählt: Wurfuhr, Spielzeit, Punkte, Ballbesitz. Jede Anzeige hat ihre Rolle, bedient wird mit dem Handy im Browser. Ohne Server, ohne App, ohne Lizenzkosten.",
-  "cta1": "Kontakt aufnehmen",
-  "cta2": "So läuft ein Spieltag",
-  "note": "Wir klären gemeinsam, was für euren Verein passt: Bausatz, fertige Geräte oder etwas dazwischen.",
-  "same": "Gleiche Hardware, andere Spielart:",
-  "chips": [
-   "Basketball",
-   "Zirkeltraining",
-   "Zeittraining"
-  ],
-  "planned": "weitere in Planung",
-  "cap_shot": "Wurfuhr",
-  "cap_clock": "Spielzeit",
-  "cap_score": "Punkte"
- },
- "steps": {
-  "eyebrow": "Für Vereine",
-  "title": "Ein Spieltag in vier Schritten",
-  "sub": "Aufstellen, einschalten, QR-Code scannen, spielen. Keine Installation, kein Techniker.",
-  "items": [
-   {
-    "t": "Aufstellen",
-    "d": "Auf den Tisch stellen oder an Wand oder Decke hängen. Strom per USB oder eingebautem Netzteil."
-   },
-   {
-    "t": "Einschalten",
-    "d": "Die Anzeigen verbinden sich mit dem WLAN, finden einander und einigen sich selbst."
-   },
-   {
-    "t": "QR-Code scannen",
-    "d": "Das Handy öffnet die Bedienseite direkt von der Anzeige. Keine App."
-   },
-   {
-    "t": "Spielen",
-    "d": "Alles vom Handy. Bis zu drei Handys gleichzeitig, oder ein Tablet."
-   }
-  ]
- },
- "core": {
-  "eyebrow": "Das Wichtigste",
-  "title": "Sechs Dinge, die GAMiq ausmachen",
-  "sub": "Nach Gewicht geordnet.",
-  "items": [
-   {
-    "t": "Ein System, jede Spielart",
-    "d": "Die Plattform ist allgemein, jede Spielart bringt Regeln, Anzeige und Bedienung mit. Die Spielart wählt man am Handy."
-   },
-   {
-    "t": "Bis zu fünf Anzeigen, jede mit Rolle",
-    "d": "Wurfuhr, Spielzeit, Punkte: die Rolle stellt man auf der Seite um, nicht an der Hardware."
-   },
-   {
-    "t": "Kein Server, keine App, keine Lizenzkosten",
-    "d": "Alles läuft auf den Anzeigen, das Handy braucht nur einen Browser. Die Software ist frei, es fallen keine Lizenzgebühren an."
-   },
-   {
-    "t": "Bis zu drei Handys gleichzeitig",
-    "d": "Die Kampfrichter teilen sich die Aufgaben, oder ein Tablet bedient alles."
-   },
-   {
-    "t": "Selbst organisiert",
-    "d": "Die Anzeigen finden einander und einigen sich, welche das Spiel führt. Neue Software kommt ohne Kabel per WLAN."
-   },
-   {
-    "t": "Mehrere Felder in einem WLAN",
-    "d": "Jedes Spielfeld ist ein eigenes System, zentral umbenennen und verschieben."
-   }
-  ]
- },
- "types": {
-  "eyebrow": "Spielarten",
-  "title": "Heute drei, weitere sind in Planung",
-  "sub": "Neue Spielarten kommen per Update über das WLAN auf die vorhandenen Anzeigen. Es braucht keine neue Hardware und kein Öffnen des Gehäuses.",
-  "items": [
-   {
-    "t": "Basketball",
-    "d": "Wurfuhr, Spielzeit mit Ballbesitzpfeil, Punkte. Viertel, Verlängerung, 24 s und 14 s."
-   },
-   {
-    "t": "Zirkeltraining",
-    "d": "Jede Anzeige zeigt eine Farbe und den Countdown. Beim Ablauf wandern die Farben zur nächsten Station."
-   },
-   {
-    "t": "Zeittraining",
-    "d": "Eine Zeit zählt bis zum Ziel, ein Balken füllt sich. Als Zeit, als Balken oder als große Ziffer."
-   }
-  ],
-  "soon_t": "In Planung",
-  "soon_d": "Weitere Spielarten sind vorgesehen, noch ohne Termin.",
-  "soon_chips": [
-   "Volleyball",
-   "Tischtennis",
-   "Badminton",
-   "Handball",
-   "Fußball"
-  ],
-  "soon_ask": "Eine bestimmte Sportart im Verein?",
-  "soon_link": "Sagt es uns."
- },
- "build": {
-  "eyebrow": "Vom Einstieg bis zum Maximalausbau · Beispiel Basketball",
-  "title": "Von zwei Anzeigen bis fünf Anzeigen und drei Handys",
-  "sub": "Los geht es mit zwei bis drei Anzeigen, etwa Wurfuhr, Spielzeit und Punktestand. Die größte Ausbaustufe sieht so aus: eine Wurfuhr an jedem Korb, in der Mitte die Spielzeit, dazu je eine Anzeige für Heim und für Gast. Alle Einheiten und alle Handys hängen im selben WLAN und sind darüber synchron. Die Rollen sind frei einstellbar, jederzeit kann eine Anzeige dazukommen.",
-  "wifi": "WLAN · alle synchron",
-  "units": [
-   {
-    "t": "Wurfuhr",
-    "d": "Korb links"
-   },
-   {
-    "t": "Punkte Heim",
-    "d": "Heimteam"
-   },
-   {
-    "t": "Spielzeit + Ballbesitz",
-    "d": "Mitte"
-   },
-   {
-    "t": "Punkte Gast",
-    "d": "Gastteam"
-   },
-   {
-    "t": "Wurfuhr",
-    "d": "Korb rechts"
-   }
-  ],
-  "officials": [
-   "Kampfrichter 1",
-   "Kampfrichter 2",
-   "Kampfrichter 3"
-  ],
-  "foot": "* Ein Kampfgericht kann auch alle Geräte gleichzeitig über ein Tablet bedienen."
- },
- "roles": {
-  "eyebrow": "Rollen",
-  "title": "Was jede Anzeige zeigt und wie man sie bedient",
-  "sub": "Zu jeder Rolle gehört ein Reiter in der Web-Oberfläche. Rechts daneben die Anzeige in typischen Zuständen, so wie sie in der Halle aussieht.",
-  "th": [
-   "Rolle",
-   "Web-Oberfläche",
-   "Anzeige"
-  ],
-  "boxes": [
-   {
-    "t": "Basketball",
-    "d": "Drei Rollen, zusammen das Spielfeld.",
-    "rows": [
-     {
-      "t": "Wurfuhr",
-      "d": "24 Sekunden, 14 nach Offensivrebound. In den letzten 5 s wird der Ring weiß und die Ziffern rot, bei 0 blinkt der Kreis."
-     },
-     {
-      "t": "Spielzeit + Ballbesitz",
-      "d": "Zeit mit Viertel, Streifen je Viertel und dem Pfeil für den nächsten Einwurf."
-     },
-     {
-      "t": "Punkte",
-      "d": "Entweder Heim und Gast zusammen auf einer Anzeige, oder je eine Anzeige für Heim und für Gast. Bis 199, eine steigende Ziffer dreht einmal um."
-     }
+  "meta": {
+    "lang": "de",
+    "name": "Deutsch",
+    "title": "GAMiq – Das Anzeigesystem für Hallen und Vereine",
+    "description": "Vernetzte LED-Anzeigen für Basketball und Training. Ohne Server, ohne App, ohne Lizenzkosten."
+  },
+  "nav": {
+    "steps": "Spieltag",
+    "types": "Spielarten",
+    "build": "Ausbau",
+    "operate": "Bedienung",
+    "hardware": "Hardware",
+    "open": "Offen & Anleitung",
+    "contact": "Kontakt",
+    "manual": "Anleitung",
+    "imprint": "Impressum",
+    "privacy": "Datenschutz",
+    "other_lang": "English",
+    "other_lang_code": "en",
+    "clubs": "Für Vereine"
+  },
+  "hero": {
+    "eyebrow": "Das Anzeigesystem für Hallen und Vereine",
+    "h1": "Ein System. Jedes Spiel.",
+    "lead": "Vernetzte LED-Anzeigen, die für jede Sportart zeigen, was zählt: Wurfuhr, Spielzeit, Punkte, Ballbesitz. Jede Anzeige hat ihre Rolle, bedient wird mit dem Handy im Browser. Ohne Server, ohne App, ohne Lizenzkosten.",
+    "cta1": "Kontakt aufnehmen",
+    "cta2": "So läuft ein Spieltag",
+    "note": "Wir klären gemeinsam, was für euren Verein passt: Bausatz, fertige Geräte oder etwas dazwischen.",
+    "same": "Gleiche Hardware, andere Spielart:",
+    "chips": [
+      "Basketball",
+      "Zirkeltraining",
+      "Zeittraining"
+    ],
+    "planned": "weitere in Planung",
+    "cap_shot": "Wurfuhr",
+    "cap_clock": "Spielzeit",
+    "cap_score": "Punkte"
+  },
+  "steps": {
+    "eyebrow": "Für Vereine",
+    "title": "Ein Spieltag in vier Schritten",
+    "sub": "Aufstellen, einschalten, QR-Code scannen, spielen. Keine Installation, kein Techniker.",
+    "items": [
+      {
+        "t": "Aufstellen",
+        "d": "Auf den Tisch stellen oder an Wand oder Decke hängen. Strom per USB oder eingebautem Netzteil."
+      },
+      {
+        "t": "Einschalten",
+        "d": "Die Anzeigen verbinden sich mit dem WLAN, finden einander und einigen sich selbst."
+      },
+      {
+        "t": "QR-Code scannen",
+        "d": "Das Handy öffnet die Bedienseite direkt von der Anzeige. Keine App."
+      },
+      {
+        "t": "Spielen",
+        "d": "Alles vom Handy. Bis zu drei Handys gleichzeitig, oder ein Tablet."
+      }
     ]
-   },
-   {
-    "t": "Zirkeltraining",
-    "d": "Eine Rolle pro Station.",
-    "rows": [
-     {
-      "t": "Zirkeltraining",
-      "d": "Jede Anzeige eine Farbe und der Countdown bis zum Wechsel; dann wandern die Farben eine Station weiter. Bis zu fünf Stationen."
-     }
+  },
+  "core": {
+    "eyebrow": "Das Wichtigste",
+    "title": "Sechs Dinge, die GAMiq ausmachen",
+    "sub": "Nach Gewicht geordnet.",
+    "items": [
+      {
+        "t": "Ein System, jede Spielart",
+        "d": "Die Plattform ist allgemein, jede Spielart bringt Regeln, Anzeige und Bedienung mit. Die Spielart wählt man am Handy."
+      },
+      {
+        "t": "Bis zu fünf Anzeigen, jede mit Rolle",
+        "d": "Wurfuhr, Spielzeit, Punkte: die Rolle stellt man auf der Seite um, nicht an der Hardware."
+      },
+      {
+        "t": "Kein Server, keine App, keine Lizenzkosten",
+        "d": "Alles läuft auf den Anzeigen, das Handy braucht nur einen Browser. Die Software ist frei, es fallen keine Lizenzgebühren an."
+      },
+      {
+        "t": "Bis zu drei Handys gleichzeitig",
+        "d": "Die Kampfrichter teilen sich die Aufgaben, oder ein Tablet bedient alles."
+      },
+      {
+        "t": "Selbst organisiert",
+        "d": "Die Anzeigen finden einander und einigen sich, welche das Spiel führt. Neue Software kommt ohne Kabel per WLAN."
+      },
+      {
+        "t": "Mehrere Felder in einem WLAN",
+        "d": "Jedes Spielfeld ist ein eigenes System, zentral umbenennen und verschieben."
+      }
     ]
-   },
-   {
-    "t": "Zeittraining",
-    "d": "Eine Rolle, drei Darstellungen.",
-    "rows": [
-     {
-      "t": "Zeittraining",
-      "d": "Eine Zeit zählt bis zum Ziel, ein Balken füllt sich. Als Zeit mit Balken, als Balken oder als große Minutenziffer."
-     }
+  },
+  "types": {
+    "eyebrow": "Spielarten",
+    "title": "Heute drei, weitere sind in Planung",
+    "sub": "Neue Spielarten kommen per Update über das WLAN auf die vorhandenen Anzeigen. Es braucht keine neue Hardware und kein Öffnen des Gehäuses.",
+    "items": [
+      {
+        "t": "Basketball",
+        "d": "Wurfuhr, Spielzeit mit Ballbesitzpfeil, Punkte. Viertel, Verlängerung, 24 s und 14 s."
+      },
+      {
+        "t": "Zirkeltraining",
+        "d": "Jede Anzeige zeigt eine Farbe und den Countdown. Beim Ablauf wandern die Farben zur nächsten Station."
+      },
+      {
+        "t": "Zeittraining",
+        "d": "Eine Zeit zählt bis zum Ziel, ein Balken füllt sich. Als Zeit, als Balken oder als große Ziffer."
+      }
+    ],
+    "soon_t": "In Planung",
+    "soon_d": "Weitere Spielarten sind vorgesehen, noch ohne Termin.",
+    "soon_chips": [
+      "Volleyball",
+      "Tischtennis",
+      "Badminton",
+      "Handball",
+      "Fußball"
+    ],
+    "soon_ask": "Eine bestimmte Sportart im Verein?",
+    "soon_link": "Sagt es uns."
+  },
+  "build": {
+    "eyebrow": "Vom Einstieg bis zum Maximalausbau · Beispiel Basketball",
+    "title": "Von zwei Anzeigen bis fünf Anzeigen und drei Handys",
+    "sub": "Los geht es mit zwei bis drei Anzeigen, etwa Wurfuhr, Spielzeit und Punktestand. Die größte Ausbaustufe sieht so aus: eine Wurfuhr an jedem Korb, in der Mitte die Spielzeit, dazu je eine Anzeige für Heim und für Gast. Alle Einheiten und alle Handys hängen im selben WLAN und sind darüber synchron. Die Rollen sind frei einstellbar, jederzeit kann eine Anzeige dazukommen.",
+    "wifi": "WLAN · alle synchron",
+    "units": [
+      {
+        "t": "Wurfuhr",
+        "d": "Korb links"
+      },
+      {
+        "t": "Punkte Heim",
+        "d": "Heimteam"
+      },
+      {
+        "t": "Spielzeit + Ballbesitz",
+        "d": "Mitte"
+      },
+      {
+        "t": "Punkte Gast",
+        "d": "Gastteam"
+      },
+      {
+        "t": "Wurfuhr",
+        "d": "Korb rechts"
+      }
+    ],
+    "officials": [
+      "Kampfrichter 1",
+      "Kampfrichter 2",
+      "Kampfrichter 3"
+    ],
+    "foot": "* Ein Kampfgericht kann auch alle Geräte gleichzeitig über ein Tablet bedienen."
+  },
+  "roles": {
+    "eyebrow": "Rollen",
+    "title": "Was jede Anzeige zeigt und wie man sie bedient",
+    "sub": "Zu jeder Rolle gehört ein Reiter in der Web-Oberfläche. Rechts daneben die Anzeige in typischen Zuständen, so wie sie in der Halle aussieht.",
+    "th": [
+      "Rolle",
+      "Web-Oberfläche",
+      "Anzeige"
+    ],
+    "boxes": [
+      {
+        "t": "Basketball",
+        "d": "Drei Rollen, zusammen das Spielfeld.",
+        "rows": [
+          {
+            "t": "Wurfuhr",
+            "d": "24 Sekunden, 14 nach Offensivrebound. In den letzten 5 s wird der Ring weiß und die Ziffern rot, bei 0 blinkt der Kreis."
+          },
+          {
+            "t": "Spielzeit + Ballbesitz",
+            "d": "Zeit mit Viertel, Streifen je Viertel und dem Pfeil für den nächsten Einwurf."
+          },
+          {
+            "t": "Punkte",
+            "d": "Entweder Heim und Gast zusammen auf einer Anzeige, oder je eine Anzeige für Heim und für Gast. Bis 199, eine steigende Ziffer dreht einmal um."
+          }
+        ]
+      },
+      {
+        "t": "Zirkeltraining",
+        "d": "Eine Rolle pro Station.",
+        "rows": [
+          {
+            "t": "Zirkeltraining",
+            "d": "Jede Anzeige eine Farbe und der Countdown bis zum Wechsel; dann wandern die Farben eine Station weiter. Bis zu fünf Stationen."
+          }
+        ]
+      },
+      {
+        "t": "Zeittraining",
+        "d": "Eine Rolle, drei Darstellungen.",
+        "rows": [
+          {
+            "t": "Zeittraining",
+            "d": "Eine Zeit zählt bis zum Ziel, ein Balken füllt sich. Als Zeit mit Balken, als Balken oder als große Minutenziffer."
+          }
+        ]
+      }
     ]
-   }
-  ]
- },
- "operate": {
-  "eyebrow": "Bedienung",
-  "title": "Jeder Kampfrichter hat sein Handy",
-  "sub": "Die Seite zeigt auf dem Handy den Bereich der Rolle: die Wurfuhr mit Pause und 14 s, die Spielzeit mit Viertel, die Punkte mit +1, +2, +3. Bis zu drei Handys sind gleichzeitig verbunden.",
-  "ticks": [
-   "QR-Code an der Anzeige scannen, fertig",
-   "Rollen und Spielart ändert man am Handy",
-   "Deutsch und Englisch, jederzeit umschaltbar",
-   "Nur gekoppelte Handys dürfen bedienen"
-  ]
- },
- "hardware": {
-  "eyebrow": "Hardware",
-  "title": "Robust, stapelbar, selbst zu reparieren",
-  "sub": "64×64 LED-Matrix, ESP32, 3D-gedrucktes Gehäuse. Die Farbe der Ecken zeigt, welche Einheit welche ist.",
-  "ticks": [
-   "Auf dem Tisch, an der Wand oder an der Decke",
-   "Stapelbar zum Transport",
-   "Offene Bauweise: Druckdateien und Stückliste"
-  ],
-  "alt": "Zwei gestapelte GAMiq-Einheiten"
- },
- "open": {
-  "eyebrow": "Offen & Anleitung",
-  "title": "Nachvollziehbar und gut dokumentiert",
-  "cards": [
-   {
-    "t": "Anleitung",
-    "d": "Aufbau, erster Start, Update und Hilfe, mit Bildern der Anzeigen.",
-    "l": "Zur Anleitung →"
-   },
-   {
-    "t": "Download",
-    "d": "Aktuelle Firmware und Release-Notes.",
-    "l": "Zu den Releases →"
-   },
-   {
-    "t": "Lizenz & Quelltext",
-    "d": "Code GPL-3.0-or-later, Druckdateien CC BY-SA 4.0.",
-    "l": "Mehr →"
-   }
-  ]
- },
- "contact": {
-  "eyebrow": "Kontakt",
-  "title": "Sprecht uns an",
-  "sub": "Erzählt kurz von eurem Verein und eurer Halle. Dann besprechen wir, was ihr braucht.",
-  "ticks": [
-   "Antwort per E-Mail, keine Weitergabe, keine Werbung",
-   "Die Mail entsteht in eurem Mailprogramm"
-  ],
-  "f_club": "Verein / Halle",
-  "f_fields": "Wie viele Spielfelder, welche Sportart?",
-  "f_wish": "Was wünscht ihr euch?",
-  "btn": "E-Mail vorbereiten",
-  "subject": "Anfrage GAMiq",
-  "address": "gerlx.studio@gmail.com"
- },
- "footer": {
-  "licence": "Bilder CC BY-SA 4.0"
- },
- "stub": {
-  "open": "Offen und dokumentiert",
-  "imprint": "Impressum",
-  "privacy": "Datenschutz",
-  "text": "TBD: diese Seite folgt, sobald die Vorbedingungen aus Issue 472 geklärt sind."
- }
+  },
+  "operate": {
+    "eyebrow": "Bedienung",
+    "title": "Jeder Kampfrichter hat sein Handy",
+    "sub": "Die Seite zeigt auf dem Handy den Bereich der Rolle: die Wurfuhr mit Pause und 14 s, die Spielzeit mit Viertel, die Punkte mit +1, +2, +3. Bis zu drei Handys sind gleichzeitig verbunden.",
+    "ticks": [
+      "QR-Code an der Anzeige scannen, fertig",
+      "Rollen und Spielart ändert man am Handy",
+      "Deutsch und Englisch, jederzeit umschaltbar",
+      "Nur gekoppelte Handys dürfen bedienen"
+    ]
+  },
+  "hardware": {
+    "eyebrow": "Hardware",
+    "title": "Robust, stapelbar, selbst zu reparieren",
+    "sub": "64×64 LED-Matrix, ESP32, 3D-gedrucktes Gehäuse. Die Farbe der Ecken zeigt, welche Einheit welche ist.",
+    "ticks": [
+      "Auf dem Tisch, an der Wand oder an der Decke",
+      "Stapelbar zum Transport",
+      "Offene Bauweise: Druckdateien und Stückliste"
+    ],
+    "alt": "Zwei gestapelte GAMiq-Einheiten",
+    "more": "Mehr zur Hardware →"
+  },
+  "open": {
+    "eyebrow": "Offen & Anleitung",
+    "title": "Nachvollziehbar und gut dokumentiert",
+    "cards": [
+      {
+        "t": "Anleitung",
+        "d": "Aufbau, erster Start, Update und Hilfe, mit Bildern der Anzeigen.",
+        "l": "Zur Anleitung →"
+      },
+      {
+        "t": "Download",
+        "d": "Aktuelle Firmware und Release-Notes.",
+        "l": "Zu den Releases →"
+      },
+      {
+        "t": "Lizenz & Quelltext",
+        "d": "Code GPL-3.0-or-later, Druckdateien CC BY-SA 4.0.",
+        "l": "Mehr →"
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "title": "Sprecht uns an",
+    "sub": "Erzählt kurz von eurem Verein und eurer Halle. Dann besprechen wir, was ihr braucht.",
+    "ticks": [
+      "Antwort per E-Mail, keine Weitergabe, keine Werbung",
+      "Die Mail entsteht in eurem Mailprogramm"
+    ],
+    "f_club": "Verein / Halle",
+    "f_fields": "Wie viele Spielfelder, welche Sportart?",
+    "f_wish": "Was wünscht ihr euch?",
+    "btn": "E-Mail vorbereiten",
+    "subject": "Anfrage GAMiq",
+    "address": "gerlx.studio@gmail.com"
+  },
+  "footer": {
+    "licence": "Bilder CC BY-SA 4.0"
+  },
+  "stub": {
+    "imprint": "Impressum",
+    "privacy": "Datenschutz",
+    "text": "TBD: diese Seite folgt, sobald die Vorbedingungen aus Issue 472 geklärt sind."
+  },
+  "pg_clubs": {
+    "eyebrow": "Für Vereine",
+    "title": "Was euer Verein davon hat",
+    "sub": "GAMiq ist ein Anzeigesystem, das ein Verein selbst aufstellt und bedient: ohne Techniker, ohne Server, ohne App.",
+    "why_title": "Warum Vereine es einsetzen",
+    "why": [
+      {
+        "t": "Ein Gerät, mehrere Sportarten",
+        "d": "Dieselbe Hardware zeigt Basketball, Zirkeltraining und Zeittraining. Weitere Spielarten sind in Planung und kommen per Update auf die Geräte, die ihr schon habt."
+      },
+      {
+        "t": "Aufbauen ohne Fachwissen",
+        "d": "Aufstellen, einschalten, QR-Code scannen. Die Anzeigen finden einander und einigen sich selbst, ein Kabel zwischen den Einheiten braucht es nicht."
+      },
+      {
+        "t": "Keine Lizenzkosten",
+        "d": "Kein Abo, keine Cloud, kein Konto. Die Software ist frei (GPL), sie läuft auf den Geräten selbst."
+      },
+      {
+        "t": "Bedienen mit dem Handy",
+        "d": "Bis zu drei Handys bedienen gleichzeitig, zum Beispiel Wurfuhr, Spielzeit und Punkte an drei Kampfrichter verteilt. Oder ein Tablet für alles."
+      }
+    ],
+    "need_title": "Das braucht ihr",
+    "need": [
+      "Eine oder mehrere Anzeigen, je mit Strom (USB oder eingebautes Netzteil). Bis zu fünf Anzeigen pro Spiel, zwei sind der Normalfall.",
+      "Ein WLAN mit 2,4 GHz, in dem Anzeigen und Handys sind. Ein Handy-Hotspot geht auch.",
+      "Ein Handy oder Tablet mit Browser. Eine App ist nicht nötig."
+    ],
+    "day_title": "Ein Spieltag im Detail",
+    "day": [
+      {
+        "t": "Aufstellen",
+        "d": "Auf den Tisch stellen oder an Wand oder Decke hängen und mit Strom versorgen."
+      },
+      {
+        "t": "Einschalten",
+        "d": "Beim ersten Start zeigt jede Anzeige einen QR-Code für die Einrichtung des WLANs, danach verbindet sie sich selbst. Die Anzeigen einer Halle bilden ein System."
+      },
+      {
+        "t": "Handy koppeln",
+        "d": "QR-Code einer Anzeige scannen oder den Code eingeben. Nur gekoppelte Handys dürfen bedienen."
+      },
+      {
+        "t": "Spielart und Rollen wählen",
+        "d": "Am Handy die Spielart wählen und jeder Anzeige ihre Rolle geben: Wurfuhr, Spielzeit, Punkte. Das geht auf der Seite, nicht an der Hardware."
+      },
+      {
+        "t": "Spielen",
+        "d": "Uhr starten, Punkte zählen, Wurfuhr zurücksetzen, alles vom Handy aus."
+      }
+    ],
+    "faq_title": "Fragen und Antworten",
+    "faq": [
+      {
+        "q": "Brauchen wir Internet in der Halle?",
+        "a": "Nein. Es gibt keinen Server und keine Cloud, alles läuft auf den Anzeigen. Nur wenn ihr ein Update einspielt, holt sich die Anzeige die neue Version über das WLAN."
+      },
+      {
+        "q": "Wie viele Handys können gleichzeitig bedienen?",
+        "a": "Bis zu drei. Sie teilen sich die Arbeit, etwa Wurfuhr, Spielzeit und Punkte. Ein Tablet kann auch alles allein bedienen."
+      },
+      {
+        "q": "Welche Sportarten gibt es?",
+        "a": "Heute Basketball, Zirkeltraining und Zeittraining. Weitere sind in Planung, noch ohne Termin. Schreibt uns, welche Sportart ihr braucht."
+      },
+      {
+        "q": "Ist es für Ligaspiele zugelassen?",
+        "a": "Jede Spielart folgt den Regeln ihrer Sportart, soweit eine Anzeige das kann. Keine ist offiziell zugelassen. Basketball ist gedacht für Training und für Ligen ohne die Vorgaben der höchsten FIBA-Stufe."
+      },
+      {
+        "q": "Mehrere Spielfelder in einer Halle?",
+        "a": "Ja. Mehrere Systeme können im selben WLAN laufen, zum Beispiel eines pro Spielfeld. Auf der Seite lassen sie sich benennen und trennen."
+      },
+      {
+        "q": "Deutsch oder Englisch?",
+        "a": "Beides. Die Bedienseite und die Texte auf den Anzeigen lassen sich umstellen."
+      },
+      {
+        "q": "Was kostet es?",
+        "a": "Das hängt davon ab, was ihr braucht: Bausatz, fertige Geräte oder etwas dazwischen. Schreibt uns, dann klären wir das gemeinsam."
+      }
+    ],
+    "cta_title": "Passt das zu eurem Verein?",
+    "cta_text": "Erzählt kurz von eurem Verein und eurer Halle.",
+    "cta_btn": "Kontakt aufnehmen"
+  },
+  "pg_hardware": {
+    "eyebrow": "Hardware",
+    "title": "Die Anzeige",
+    "sub": "Jede Einheit ist gleich gebaut: eine 64×64-LED-Matrix hinter dem Gehäuse, ein ESP32 darin. Welche Rolle sie hat, entscheidet die Software, nicht die Hardware.",
+    "alt": "Zwei gestapelte GAMiq-Einheiten",
+    "facts_title": "Die Einheit",
+    "facts": [
+      {
+        "t": "Farbige LED-Matrix",
+        "d": "64×64 Pixel, auch aus der Hallenmitte gut zu lesen. Die Wurfuhr zeigt ganze Sekunden mit Ziffern von rund 11 cm."
+      },
+      {
+        "t": "Strom",
+        "d": "Per USB, etwa aus einer Powerbank, oder über das eingebaute Netzteil mit einem Kaltgerätekabel."
+      },
+      {
+        "t": "Aufstellen und Aufhängen",
+        "d": "Auf dem Tisch, mit Haken an Wand oder Decke. Der Beschleunigungssensor dreht die Anzeige passend."
+      },
+      {
+        "t": "Stapelbar",
+        "d": "Für den Transport zur Halle lassen sich die Einheiten übereinander stapeln."
+      },
+      {
+        "t": "Gehäuse aus dem 3D-Drucker",
+        "d": "Für den Alltag in der Sporthalle gebaut. Gedruckt wird in PETG, Dämpfer und Füße in TPU. Jedes Teil passt auf ein Druckbett von 230 × 230 mm."
+      },
+      {
+        "t": "Farben der Ecken",
+        "d": "Die Eckabdeckungen lassen sich pro Einheit in einer anderen Farbe drucken, so erkennt man, welche Einheit welche ist."
+      }
+    ],
+    "open_title": "Selbst bauen",
+    "open_text": "Druckdateien und Stückliste sind offen. Wie ihr sie bekommt, steht auf der Seite Offen und dokumentiert.",
+    "open_btn": "Offen und dokumentiert →"
+  },
+  "pg_open": {
+    "eyebrow": "Offen & Anleitung",
+    "title": "Offen und dokumentiert",
+    "sub": "GAMiq ist frei. Ihr könnt nachlesen, wie es funktioniert, es selbst bauen und anpassen.",
+    "lic_title": "Lizenzen",
+    "lic": [
+      {
+        "t": "Software",
+        "d": "GPL-3.0-or-later. Die Software darf genutzt, weitergegeben und verändert werden, solange Änderungen unter derselben Lizenz bleiben."
+      },
+      {
+        "t": "Druckdateien und Bilder",
+        "d": "CC BY-SA 4.0. Gehäuse, Stückliste und die Bilder dieser Seite."
+      }
+    ],
+    "get_title": "Anleitung und Downloads",
+    "cards": [
+      {
+        "t": "Anleitung",
+        "d": "Aufbau, erster Start, Update und Hilfe, mit Bildern der Anzeigen.",
+        "l": "Zur Anleitung →"
+      },
+      {
+        "t": "Download",
+        "d": "Aktuelle Firmware und Release-Notes.",
+        "l": "Zu den Releases →"
+      }
+    ],
+    "src_title": "Quelltext und Druckdateien",
+    "src_text": "Das Repository mit Quelltext, Druckdateien und Stückliste ist noch nicht öffentlich. Auf Anfrage geben wir alles heraus, schreibt uns.",
+    "src_btn": "Anfrage per E-Mail"
+  }
 }

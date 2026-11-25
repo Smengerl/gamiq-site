@@ -1,4 +1,4 @@
-// Pages other than the home page, once per language: the paths are the same in every language. Their content follows in phase 3 (docs/design/website.md).
+// Pages other than the home page, once per language: the paths are the same in every language. Imprint and privacy stay stubs until the preconditions of #472 are settled.
 import languages from "./languages.js";
-const slugs = ["open", "imprint", "privacy"];
+const slugs = ["clubs", "hardware", "open", "imprint", "privacy"];
 export default languages.flatMap((L) => slugs.map((slug) => ({ L, slug })));

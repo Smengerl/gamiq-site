@@ -5,4 +5,9 @@ pagination:
   alias: P
 permalink: "/{{ P.L.lang }}/{{ P.slug }}/index.html"
 layout: base-sub.njk
+eleventyComputed:
+  title: "{{ P.L.t['pg_' + P.slug].title if P.L.t['pg_' + P.slug] else P.L.t.stub[P.slug] }}"
+  noindex: "{{ '' if P.L.t['pg_' + P.slug] else 'yes' }}"
 ---
+{% set t = P.L.t %}{% set pg = t['pg_' + P.slug] %}
+{% if pg %}{% include "pages/" + P.slug + ".njk" %}{% else %}<section><div class="wrap"><h1 style="font-size:var(--fs-36)">{{ t.stub[P.slug] }}</h1><p class="sub">{{ t.stub.text }}</p></div></section>{% endif %}
