@@ -1,0 +1,275 @@
+{
+ "meta": {
+  "lang": "en",
+  "name": "English",
+  "title": "GAMiq – The display system for halls and clubs",
+  "description": "Networked LED displays for basketball and training. No server, no app, no licence fees."
+ },
+ "nav": {
+  "steps": "Game day",
+  "types": "Game types",
+  "build": "Full build",
+  "operate": "Operation",
+  "hardware": "Hardware",
+  "open": "Open & manual",
+  "contact": "Contact",
+  "manual": "Manual",
+  "imprint": "Imprint",
+  "privacy": "Privacy",
+  "other_lang": "Deutsch",
+  "other_lang_code": "de"
+ },
+ "hero": {
+  "eyebrow": "The display system for halls and clubs",
+  "h1": "One system. Any game.",
+  "lead": "Networked LED displays that show what counts in any sport: shot clock, game time, score, possession. Every display has its role, and a phone in the browser operates it. No server, no app, no licence fees.",
+  "cta1": "Get in touch",
+  "cta2": "How a game day works",
+  "note": "We work out together what fits your club: a kit, finished units or something in between.",
+  "same": "Same hardware, other game type:",
+  "chips": [
+   "Basketball",
+   "Circuit training",
+   "Timed training"
+  ],
+  "planned": "more planned",
+  "cap_shot": "Shot clock",
+  "cap_clock": "Game time",
+  "cap_score": "Score"
+ },
+ "steps": {
+  "eyebrow": "For clubs",
+  "title": "A game day in four steps",
+  "sub": "Set up, switch on, scan the QR code, play. No installation, no technician.",
+  "items": [
+   {
+    "t": "Set up",
+    "d": "Put it on a table or hang it on a wall or ceiling. Power by USB or built-in power supply."
+   },
+   {
+    "t": "Switch on",
+    "d": "The displays join the Wi-Fi, find each other and agree among themselves."
+   },
+   {
+    "t": "Scan the QR code",
+    "d": "The phone opens the control page straight from the display. No app."
+   },
+   {
+    "t": "Play",
+    "d": "Everything from the phone. Up to three phones at once, or a tablet."
+   }
+  ]
+ },
+ "core": {
+  "eyebrow": "What matters",
+  "title": "Six things that make GAMiq",
+  "sub": "Ordered by weight.",
+  "items": [
+   {
+    "t": "One system, any game type",
+    "d": "The platform is general; each game type brings its rules, display and controls. The game type is chosen on the phone."
+   },
+   {
+    "t": "Up to five displays, each with a role",
+    "d": "Shot clock, game time, score: the role is set on the page, not on the hardware."
+   },
+   {
+    "t": "No server, no app, no licence fees",
+    "d": "Everything runs on the displays and the phone needs only a browser. The software is free; no licence fees apply."
+   },
+   {
+    "t": "Up to three phones at once",
+    "d": "The table officials share the work, or one tablet operates everything."
+   },
+   {
+    "t": "Organises itself",
+    "d": "The displays find each other and agree which one runs the game. New software arrives over Wi-Fi without a cable."
+   },
+   {
+    "t": "Several courts on one Wi-Fi",
+    "d": "Each court is a system of its own; rename and move units centrally."
+   }
+  ]
+ },
+ "types": {
+  "eyebrow": "Game types",
+  "title": "Three today, more planned",
+  "sub": "New game types arrive by update over Wi-Fi on the displays you already own. No new hardware, no opening the enclosure.",
+  "items": [
+   {
+    "t": "Basketball",
+    "d": "Shot clock, game time with possession arrow, score. Periods, overtime, 24 s and 14 s."
+   },
+   {
+    "t": "Circuit training",
+    "d": "Each display shows a colour and the countdown. When it runs out the colours move on to the next station."
+   },
+   {
+    "t": "Timed training",
+    "d": "A time counts up to a target and a bar fills. As time, as bar or as one large figure."
+   }
+  ],
+  "soon_t": "Planned",
+  "soon_d": "More game types are intended, with no date yet.",
+  "soon_chips": [
+   "Volleyball",
+   "Table tennis",
+   "Badminton",
+   "Handball",
+   "Football"
+  ],
+  "soon_ask": "A particular sport in your club?",
+  "soon_link": "Tell us."
+ },
+ "build": {
+  "eyebrow": "Full build · example basketball",
+  "title": "Five displays, three phones",
+  "sub": "This is a basketball court in the largest build: a shot clock at each basket, the game time in the middle, one display each for home and guest. All units and all phones sit on the same Wi-Fi and stay in sync over it. Two displays are the normal case; the roles are freely set.",
+  "wifi": "Wi-Fi · all in sync",
+  "units": [
+   {
+    "t": "Shot clock",
+    "d": "Left basket"
+   },
+   {
+    "t": "Score home",
+    "d": "Home team"
+   },
+   {
+    "t": "Game time + possession",
+    "d": "Centre"
+   },
+   {
+    "t": "Score guest",
+    "d": "Guest team"
+   },
+   {
+    "t": "Shot clock",
+    "d": "Right basket"
+   }
+  ],
+  "officials": [
+   "Official 1",
+   "Official 2",
+   "Official 3"
+  ],
+  "foot": "* A table crew can also operate all units at once from one tablet."
+ },
+ "roles": {
+  "eyebrow": "Roles",
+  "title": "What each display shows and how it is operated",
+  "sub": "Every role has a tab on the web page. Beside it, the display in typical states, as it looks in the hall.",
+  "th": [
+   "Role",
+   "Web page",
+   "Display"
+  ],
+  "boxes": [
+   {
+    "t": "Basketball",
+    "d": "Three roles, together the court.",
+    "rows": [
+     {
+      "t": "Shot clock",
+      "d": "24 seconds, 14 after an offensive rebound. In the last 5 s the ring turns white and the digits red; at 0 the circle flashes."
+     },
+     {
+      "t": "Game time + possession",
+      "d": "Time with period, a strip per period and the arrow for the next throw-in."
+     },
+     {
+      "t": "Score",
+      "d": "Either home and guest together on one display, or one display each for home and guest. Up to 199; a rising digit flips once."
+     }
+    ]
+   },
+   {
+    "t": "Circuit training",
+    "d": "One role per station.",
+    "rows": [
+     {
+      "t": "Circuit training",
+      "d": "Each display shows a colour and the countdown to the change; then the colours move one station on. Up to five stations."
+     }
+    ]
+   },
+   {
+    "t": "Timed training",
+    "d": "One role, three views.",
+    "rows": [
+     {
+      "t": "Timed training",
+      "d": "A time counts up to a target and a bar fills. As time with bar, as bar or as large minutes."
+     }
+    ]
+   }
+  ]
+ },
+ "operate": {
+  "eyebrow": "Operation",
+  "title": "Every official has a phone",
+  "sub": "On the phone the page shows the part of the role: the shot clock with pause and 14 s, the game time with period, the score with +1, +2, +3. Up to three phones are connected at once.",
+  "ticks": [
+   "Scan the QR code on the display, done",
+   "Roles and game type are changed on the phone",
+   "German and English, switchable any time",
+   "Only paired phones may operate"
+  ]
+ },
+ "hardware": {
+  "eyebrow": "Hardware",
+  "title": "Rugged, stackable, repairable by yourself",
+  "sub": "64×64 LED matrix, ESP32, 3D-printed enclosure. The colour of the corners shows which unit is which.",
+  "ticks": [
+   "On a table, on a wall or on a ceiling",
+   "Stackable for transport",
+   "Open design: print files and bill of materials"
+  ],
+  "alt": "Two stacked GAMiq units"
+ },
+ "open": {
+  "eyebrow": "Open & manual",
+  "title": "Traceable and well documented",
+  "cards": [
+   {
+    "t": "Manual",
+    "d": "Set-up, first start, update and help, with pictures of the displays.",
+    "l": "To the manual →"
+   },
+   {
+    "t": "Download",
+    "d": "Current firmware and release notes.",
+    "l": "To the releases →"
+   },
+   {
+    "t": "Licence & source",
+    "d": "Code GPL-3.0-or-later, print files CC BY-SA 4.0.",
+    "l": "More →"
+   }
+  ]
+ },
+ "contact": {
+  "eyebrow": "Contact",
+  "title": "Talk to us",
+  "sub": "Tell us briefly about your club and your hall. Then we discuss what you need.",
+  "ticks": [
+   "Reply by e-mail, no sharing, no advertising",
+   "The mail is written in your own mail program"
+  ],
+  "f_club": "Club / hall",
+  "f_fields": "How many courts, which sport?",
+  "f_wish": "What do you wish for?",
+  "btn": "Prepare e-mail",
+  "subject": "GAMiq enquiry",
+  "address": "TBD"
+ },
+ "footer": {
+  "licence": "Pictures CC BY-SA 4.0"
+ },
+ "stub": {
+  "open": "Open and documented",
+  "imprint": "Imprint",
+  "privacy": "Privacy",
+  "text": "TBD: this page follows once the preconditions of issue 472 are settled."
+ }
+}

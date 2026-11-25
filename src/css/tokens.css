@@ -1,0 +1,19 @@
+/* Synced from gamiq platform/frontend/tokens.css at fb7ec4d by scripts/sync-tokens.mjs. Do not edit. */
+:root {
+  --bg: #000000; --surface: #141414; --raised: #1f1f1f; --line: #5c5c5c;
+  --text: #ffffff; --muted: #d0d0d0; --accent: #ff9a1a; --on-accent: #000000;
+  --danger: #ff6b6b;
+  --guide: #b48cff; --on-guide: #000000;   /* the guide's highlights (#128): nothing violet is a real control */
+  --shadow: #5c5c5c; --shadow-size: 4px;   /* the block shadow of the speech bubbles: popup and guide */
+  --unit: #ff4d4d;   /* the Master's colour, set by app.js from /api/system */
+  --font-ui: system-ui, sans-serif;   /* the draft's Atkinson for the UI would not fit the 14 KB page */
+  --font-num: "Atkinson Hyperlegible", system-ui, sans-serif;
+  --num-slant: normal;
+  --radius: 12px; --stroke: 1.5px; --label-case: none;
+  /* fixed scale, the same for every look */
+  --fs-12: 12px; --fs-13: 13px; --fs-14: 14px; --fs-15: 15px; --fs-16: 16px; --fs-18: 18px; --fs-24: 24px; --fs-28: 28px;
+  --sp-1: 4px; --sp-2: 8px; --sp-3: 12px; --sp-4: 16px;
+  --touch: 44px; --btn: 80px;
+  /* derived, not tokens: one shadow for every speech bubble, a filter so that their arrows cast it too */
+  --bubble-shadow: drop-shadow(var(--shadow-size) var(--shadow-size) 0 var(--shadow));
+}

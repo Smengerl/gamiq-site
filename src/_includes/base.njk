@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="{{ L.lang }}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ L.t.meta.title }}</title>
+<meta name="description" content="{{ L.t.meta.description }}">
+{% for X in languages %}<link rel="alternate" hreflang="{{ X.lang }}" href="../{{ X.lang }}/">
+{% endfor %}<link rel="stylesheet" href="../css/tokens.css"><link rel="stylesheet" href="../css/site.css">
+</head><body>
+<nav><div class="wrap"><a class="logo" href="./"><i></i>GAMiq</a>
+<div class="links"><a href="#spieltag">{{ L.t.nav.steps }}</a><a href="#spielarten">{{ L.t.nav.types }}</a><a href="#ausbau">{{ L.t.nav.build }}</a><a href="#bedienung">{{ L.t.nav.operate }}</a><a href="#hardware">{{ L.t.nav.hardware }}</a><a href="#offen">{{ L.t.nav.open }}</a></div>
+<a class="lang" href="../{{ L.t.nav.other_lang_code }}/">{{ L.t.nav.other_lang }}</a><a class="btn p" href="#kontakt">{{ L.t.nav.contact }}</a></div></nav>
+{{ content | safe }}
+<footer><div class="wrap"><a class="logo" style="font-size:var(--fs-18)" href="./"><i></i>GAMiq</a><a href="imprint/">{{ L.t.nav.imprint }}</a><a href="privacy/">{{ L.t.nav.privacy }}</a><span class="sp">{{ L.t.footer.licence }}</span></div></footer>
+</body></html>
