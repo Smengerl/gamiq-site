@@ -49,7 +49,7 @@
       },
       {
         "t": "Switch on",
-        "d": "The displays join the Wi-Fi, find each other and agree among themselves."
+        "d": "The displays join the Wi-Fi and synchronise with each other automatically."
       },
       {
         "t": "Scan the QR code",
@@ -57,14 +57,13 @@
       },
       {
         "t": "Play",
-        "d": "Everything from the phone. Up to three phones at once, or a tablet."
+        "d": "Control all connected displays from a tablet or phone, with up to 3 devices at once."
       }
     ]
   },
   "core": {
     "eyebrow": "What matters",
     "title": "Six things that make GAMiq",
-    "sub": "Ordered by weight.",
     "items": [
       {
         "t": "One system, any game type",
@@ -124,8 +123,8 @@
   },
   "build": {
     "eyebrow": "From a first set to the full build · example basketball",
-    "title": "From two displays to five displays and three phones",
-    "sub": "You start with two or three displays, for example shot clock, game time and score. The largest build looks like this: a shot clock at each basket, the game time in the middle, one display each for home and guest. All units and all phones sit on the same Wi-Fi and stay in sync over it. The roles are freely set, and a display can be added at any time.",
+    "title": "Mini, Midi, Maxi: how your set grows",
+    "sub": "Three example setups for basketball, from the first set to the full build. All units and devices sit on the same Wi-Fi and stay in sync over it. The roles are freely set, and a display can be added at any time.",
     "wifi": "Wi-Fi · all in sync",
     "units": [
       {
@@ -154,7 +153,58 @@
       "Official 2",
       "Official 3"
     ],
-    "foot": "* A table crew can also operate all units at once from one tablet."
+    "foot": "* A table crew can also operate all units at once from one tablet.",
+    "configs": [
+      {
+        "name": "Mini",
+        "d": "One tablet runs game time with possession and the score for home and guest.",
+        "tablet": "Tablet",
+        "units": [
+          {
+            "t": "Game time + possession",
+            "p": "clock_run"
+          },
+          {
+            "t": "Score home",
+            "p": "home"
+          },
+          {
+            "t": "Score guest",
+            "p": "guest"
+          }
+        ]
+      },
+      {
+        "name": "Midi",
+        "d": "One tablet, plus a shot clock each for home and guest.",
+        "tablet": "Tablet",
+        "units": [
+          {
+            "t": "Shot clock home",
+            "p": "shot_run"
+          },
+          {
+            "t": "Score home",
+            "p": "home"
+          },
+          {
+            "t": "Game time + possession",
+            "p": "clock_run"
+          },
+          {
+            "t": "Score guest",
+            "p": "guest"
+          },
+          {
+            "t": "Shot clock guest",
+            "p": "shot_run"
+          }
+        ]
+      }
+    ],
+    "maxi": {
+      "name": "Maxi"
+    }
   },
   "roles": {
     "eyebrow": "Roles",

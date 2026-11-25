@@ -49,7 +49,7 @@
       },
       {
         "t": "Einschalten",
-        "d": "Die Anzeigen verbinden sich mit dem WLAN, finden einander und einigen sich selbst."
+        "d": "Die Anzeigen verbinden sich mit dem WLAN und synchronisieren sich automatisch untereinander."
       },
       {
         "t": "QR-Code scannen",
@@ -57,14 +57,13 @@
       },
       {
         "t": "Spielen",
-        "d": "Alles vom Handy. Bis zu drei Handys gleichzeitig, oder ein Tablet."
+        "d": "Steuern Sie alle verbundenen Anzeigen vom Tablet oder Handy, mit bis zu 3 Geräten gleichzeitig."
       }
     ]
   },
   "core": {
     "eyebrow": "Das Wichtigste",
     "title": "Sechs Dinge, die GAMiq ausmachen",
-    "sub": "Nach Gewicht geordnet.",
     "items": [
       {
         "t": "Ein System, jede Spielart",
@@ -124,8 +123,8 @@
   },
   "build": {
     "eyebrow": "Vom Einstieg bis zum Maximalausbau · Beispiel Basketball",
-    "title": "Von zwei Anzeigen bis fünf Anzeigen und drei Handys",
-    "sub": "Los geht es mit zwei bis drei Anzeigen, etwa Wurfuhr, Spielzeit und Punktestand. Die größte Ausbaustufe sieht so aus: eine Wurfuhr an jedem Korb, in der Mitte die Spielzeit, dazu je eine Anzeige für Heim und für Gast. Alle Einheiten und alle Handys hängen im selben WLAN und sind darüber synchron. Die Rollen sind frei einstellbar, jederzeit kann eine Anzeige dazukommen.",
+    "title": "Mini, Midi, Maxi: so wächst Ihr Aufbau",
+    "sub": "Drei Beispielkonfigurationen für Basketball, vom Einstieg bis zum Maximalausbau. Alle Einheiten und Geräte hängen im selben WLAN und sind darüber synchron. Die Rollen sind frei einstellbar, jederzeit kann eine Anzeige dazukommen.",
     "wifi": "WLAN · alle synchron",
     "units": [
       {
@@ -154,7 +153,58 @@
       "Kampfrichter 2",
       "Kampfrichter 3"
     ],
-    "foot": "* Ein Kampfgericht kann auch alle Geräte gleichzeitig über ein Tablet bedienen."
+    "foot": "* Ein Kampfgericht kann auch alle Geräte gleichzeitig über ein Tablet bedienen.",
+    "configs": [
+      {
+        "name": "Mini",
+        "d": "Ein Tablet bedient Spielzeit mit Ballbesitz sowie die Punkte für Heim und Gast.",
+        "tablet": "Tablet",
+        "units": [
+          {
+            "t": "Spielzeit + Ballbesitz",
+            "p": "clock_run"
+          },
+          {
+            "t": "Punkte Heim",
+            "p": "home"
+          },
+          {
+            "t": "Punkte Gast",
+            "p": "guest"
+          }
+        ]
+      },
+      {
+        "name": "Midi",
+        "d": "Ein Tablet, dazu je eine Wurfuhr für Heim und Gast.",
+        "tablet": "Tablet",
+        "units": [
+          {
+            "t": "Wurfuhr Heim",
+            "p": "shot_run"
+          },
+          {
+            "t": "Punkte Heim",
+            "p": "home"
+          },
+          {
+            "t": "Spielzeit + Ballbesitz",
+            "p": "clock_run"
+          },
+          {
+            "t": "Punkte Gast",
+            "p": "guest"
+          },
+          {
+            "t": "Wurfuhr Gast",
+            "p": "shot_run"
+          }
+        ]
+      }
+    ],
+    "maxi": {
+      "name": "Maxi"
+    }
   },
   "roles": {
     "eyebrow": "Rollen",

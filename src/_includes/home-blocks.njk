@@ -11,7 +11,7 @@
   <div>{{ pnl("clock_run", t.hero.cap_clock) }}<div class="cap">{{ t.hero.cap_clock }}</div></div>
   <div>{{ pnl("score", t.hero.cap_score) }}<div class="cap">{{ t.hero.cap_score }}</div></div>
  </div>
- <div class="also"><span>{{ t.hero.same }}</span>{% for c in t.hero.chips %}<span class="chip a">{{ c }}</span>{% endfor %}<span class="chip">{{ t.hero.planned }}</span></div></div>
+ <div class="also"><span class="alsolbl">{{ t.hero.same }}</span><div class="chiprow">{% for c in t.hero.chips %}<span class="chip a">{{ c }}</span>{% endfor %}<span class="chip">{{ t.hero.planned }}</span></div></div></div>
 </div></header>
 
 <section id="spieltag"><div class="wrap">
@@ -19,7 +19,7 @@
  <ol class="steps">{% for i in t.steps.items %}<li><b>{{ i.t }}</b><span>{{ i.d }}</span></li>{% endfor %}</ol></div></section>
 
 <section class="alt"><div class="wrap">
- <div class="eyebrow">{{ t.core.eyebrow }}</div><h2>{{ t.core.title }}</h2><p class="sub">{{ t.core.sub }}</p>
+ <div class="eyebrow">{{ t.core.eyebrow }}</div><h2>{{ t.core.title }}</h2>{% if t.core.sub %}<p class="sub">{{ t.core.sub }}</p>{% endif %}
  <div class="grid">{% for i in t.core.items %}<div class="card"><div class="ic">{{ loop.index }}</div><b>{{ i.t }}</b><p>{{ i.d }}</p></div>{% endfor %}</div></div></section>
 
 <section id="spielarten"><div class="wrap">
@@ -32,7 +32,10 @@
 
 <section id="ausbau" class="alt"><div class="wrap">
  <div class="eyebrow">{{ t.build.eyebrow }}</div><h2>{{ t.build.title }}</h2><p class="sub">{{ t.build.sub }}</p>
+ {% for c in t.build.configs %}<div class="max cfg"><h3>{{ c.name }}</h3><p>{{ c.d }}</p>
+  <div class="row">{% for u in c.units %}<figure>{{ pnl(u.p, "") }}<figcaption><b>{{ u.t }}</b></figcaption></figure>{% endfor %}<figure class="tab">{{ phone("game", c.tablet) }}<figcaption><b>{{ c.tablet }}</b></figcaption></figure></div></div>{% endfor %}
  <div class="max">
+  <h3>{{ t.build.maxi.name }}</h3>
   {%- set ps = ["shot_run","home","clock_run","guest","shot_run"] %}
   <div class="p5">{% for u in t.build.units %}<figure>{{ pnl(ps[loop.index0], "") }}<figcaption><b>{{ u.t }}</b>{{ u.d }}</figcaption></figure>{% endfor %}</div>
   <div class="net"><svg viewBox="0 0 100 150" preserveAspectRatio="none" aria-hidden="true">
