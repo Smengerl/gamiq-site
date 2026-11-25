@@ -1,6 +1,6 @@
 {%- macro pnl(n, alt) %}<div class="bub"><img class="pnl" src="../assets/panels/{{ n }}.png" alt="{{ alt }}" width="64" height="64" loading="lazy"></div>{% endmacro -%}
 {%- macro phone(n, alt) %}<div class="phc"><img src="../assets/phone/{{ n }}.png" alt="{{ alt }}" width="585" height="900" style="aspect-ratio:585/900;object-fit:cover;object-position:top" loading="lazy"></div>{% endmacro -%}
-<header class="hero"><div class="wrap">
+<header class="hero">{% include "court.njk" %}<div class="wrap">
  <div><div class="eyebrow">{{ t.hero.eyebrow }}</div>
  <h1>{{ t.hero.h1 }}</h1>
  <p class="lead">{{ t.hero.lead }}</p>
@@ -10,7 +10,6 @@
   <div>{{ pnl("shot_run", t.hero.cap_shot) }}<div class="cap">{{ t.hero.cap_shot }}</div></div>
   <div>{{ pnl("clock_run", t.hero.cap_clock) }}<div class="cap">{{ t.hero.cap_clock }}</div></div>
   <div>{{ pnl("score", t.hero.cap_score) }}<div class="cap">{{ t.hero.cap_score }}</div></div>
-  <div class="phone"><img src="../assets/phone/shot.png" alt="" width="585" height="1266"></div>
  </div>
  <div class="also"><span>{{ t.hero.same }}</span>{% for c in t.hero.chips %}<span class="chip a">{{ c }}</span>{% endfor %}<span class="chip">{{ t.hero.planned }}</span></div></div>
 </div></header>
