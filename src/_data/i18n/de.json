@@ -203,29 +203,29 @@
   },
   "roles": {
     "eyebrow": "Rollen",
-    "title": "Was jede Anzeige zeigt und wie man sie bedient",
-    "sub": "Zu jeder Rolle gehört ein Reiter in der Web-Oberfläche. Rechts daneben die Anzeige in typischen Zuständen, so wie sie in der Halle aussieht.",
+    "title": "Jedes GAMiq kann jede Aufgabe im Spiel übernehmen",
+    "sub": "Konfigurieren Sie Ihr individuelles Setup für Spieler und Zuschauer aus baugleichen Einheiten. Spielleitung und Kampfgericht steuern die Einheiten drahtlos über WLAN.",
     "th": [
       "Rolle",
-      "Web-Oberfläche",
+      "Bedienung",
       "Anzeige"
     ],
     "boxes": [
       {
         "t": "Basketball",
-        "d": "Drei Rollen, zusammen das Spielfeld.",
+        "d": "GAMiqs in drei unterschiedlichen Rollen für alle Anzeigezwecke im Spiel",
         "rows": [
           {
             "t": "Wurfuhr",
-            "d": "24 Sekunden, 14 nach Offensivrebound. In den letzten 5 s wird der Ring weiß und die Ziffern rot, bei 0 blinkt der Kreis."
+            "d": "24 s Countdown, 14 s für Offensivrebound. Warnung in den letzten 5 s."
           },
           {
             "t": "Spielzeit + Ballbesitz",
-            "d": "Zeit mit Viertel, Streifen je Viertel und dem Pfeil für den nächsten Einwurf."
+            "d": "Anzeige der Spielzeit, des aktiven Viertels/Achtels und des nächsten Einwurfs."
           },
           {
             "t": "Punkte",
-            "d": "Entweder Heim und Gast zusammen auf einer Anzeige, oder je eine Anzeige für Heim und für Gast. Bis 199, eine steigende Ziffer dreht einmal um."
+            "d": "Spielstand Heim und Gast auf separaten Anzeigen oder einer kombinierten Anzeige."
           }
         ]
       },

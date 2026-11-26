@@ -203,29 +203,29 @@
   },
   "roles": {
     "eyebrow": "Roles",
-    "title": "What each display shows and how it is operated",
-    "sub": "Every role has a tab on the web page. Beside it, the display in typical states, as it looks in the hall.",
+    "title": "Every GAMiq can take on any task in the game",
+    "sub": "Configure your own set-up for players and spectators from identical units. Game officials and the table crew control the units wirelessly over Wi-Fi.",
     "th": [
       "Role",
-      "Web page",
+      "Operation",
       "Display"
     ],
     "boxes": [
       {
         "t": "Basketball",
-        "d": "Three roles, together the court.",
+        "d": "GAMiqs in three different roles for every display purpose in the game",
         "rows": [
           {
             "t": "Shot clock",
-            "d": "24 seconds, 14 after an offensive rebound. In the last 5 s the ring turns white and the digits red; at 0 the circle flashes."
+            "d": "24 s countdown, 14 s after an offensive rebound. Warning in the last 5 s."
           },
           {
             "t": "Game time + possession",
-            "d": "Time with period, a strip per period and the arrow for the next throw-in."
+            "d": "Display of the game time, the current quarter/eighth and the next throw-in."
           },
           {
             "t": "Score",
-            "d": "Either home and guest together on one display, or one display each for home and guest. Up to 199; a rising digit flips once."
+            "d": "Score for home and guest on separate displays or on one combined display."
           }
         ]
       },
