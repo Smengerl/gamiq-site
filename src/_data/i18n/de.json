@@ -253,13 +253,12 @@
   },
   "operate": {
     "eyebrow": "Bedienung",
-    "title": "Jeder Kampfrichter hat sein Handy",
-    "sub": "Die Seite zeigt auf dem Handy den Bereich der Rolle: die Wurfuhr mit Pause und 14 s, die Spielzeit mit Viertel, die Punkte mit +1, +2, +3. Bis zu drei Handys sind gleichzeitig verbunden.",
+    "title": "Die ganze Spielleitung kann mittels ihrer Handys steuern",
     "ticks": [
-      "QR-Code an der Anzeige scannen, fertig",
-      "Rollen und Spielart ändert man am Handy",
-      "Deutsch und Englisch, jederzeit umschaltbar",
-      "Nur gekoppelte Handys dürfen bedienen"
+      "Wettkampfleitung und Hallenverwaltung können gleichzeitig stattfindende Spiele einrichten und verwalten",
+      "Die verschiedenen Aufgaben im Kampfgericht eines Spiels erhalten alle ihre rollenspezifische Bedienung",
+      "Nur autorisierte Handys können bedienen, keine Störer",
+      "Unterstützung mehrerer Sprachen"
     ]
   },
   "hardware": {
