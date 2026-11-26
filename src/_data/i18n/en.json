@@ -40,7 +40,7 @@
   },
   "steps": {
     "eyebrow": "For clubs",
-    "title": "A game day in four steps",
+    "title": "For game day: ready in four steps",
     "sub": "Set up, switch on, scan the QR code, play. No installation, no technician.",
     "items": [
       {
@@ -63,7 +63,7 @@
   },
   "core": {
     "eyebrow": "What matters",
-    "title": "Six things that make GAMiq",
+    "title": "For your club: six good reasons",
     "items": [
       {
         "t": "One system, any game type",
@@ -93,7 +93,7 @@
   },
   "types": {
     "eyebrow": "Game types",
-    "title": "Three today, more planned",
+    "title": "For every sport: three today, more planned",
     "sub": "New game types arrive by update over Wi-Fi on the displays you already own. No new hardware, no opening the enclosure.",
     "items": [
       {
@@ -123,7 +123,7 @@
   },
   "build": {
     "eyebrow": "From a first set to the full build · example basketball",
-    "title": "Mini, Midi, Maxi: how your set grows",
+    "title": "For every hall size: from Mini to Maxi",
     "sub": "Three example setups for basketball, from the first set to the full build. All units and devices sit on the same Wi-Fi and stay in sync over it. The roles are freely set, and a display can be added at any time.",
     "wifi": "Wi-Fi · all in sync",
     "units": [
@@ -203,7 +203,7 @@
   },
   "roles": {
     "eyebrow": "Roles",
-    "title": "Every GAMiq can take on any task in the game",
+    "title": "For every task: every GAMiq in every role",
     "sub": "Configure your own set-up for players and spectators from identical units. Game officials and the table crew control the units wirelessly over Wi-Fi.",
     "th": [
       "Role",
@@ -278,7 +278,7 @@
   },
   "open": {
     "eyebrow": "Open & manual",
-    "title": "Traceable and well documented",
+    "title": "For tinkerers: open and well documented",
     "cards": [
       {
         "t": "Manual",
@@ -299,7 +299,7 @@
   },
   "contact": {
     "eyebrow": "Contact",
-    "title": "Talk to us",
+    "title": "For your questions: talk to us",
     "sub": "Tell us briefly about your club and your hall. Then we discuss what you need.",
     "ticks": [
       "Reply by e-mail, no sharing, no advertising",

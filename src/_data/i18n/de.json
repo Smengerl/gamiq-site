@@ -40,7 +40,7 @@
   },
   "steps": {
     "eyebrow": "Für Vereine",
-    "title": "Ein Spieltag in vier Schritten",
+    "title": "Für den Spieltag: in vier Schritten startklar",
     "sub": "Aufstellen, einschalten, QR-Code scannen, spielen. Keine Installation, kein Techniker.",
     "items": [
       {
@@ -63,7 +63,7 @@
   },
   "core": {
     "eyebrow": "Das Wichtigste",
-    "title": "Sechs Dinge, die GAMiq ausmachen",
+    "title": "Für Ihren Verein: sechs gute Gründe",
     "items": [
       {
         "t": "Ein System, jede Spielart",
@@ -93,7 +93,7 @@
   },
   "types": {
     "eyebrow": "Spielarten",
-    "title": "Heute drei, weitere sind in Planung",
+    "title": "Für jede Sportart: heute drei, weitere in Planung",
     "sub": "Neue Spielarten kommen per Update über das WLAN auf die vorhandenen Anzeigen. Es braucht keine neue Hardware und kein Öffnen des Gehäuses.",
     "items": [
       {
@@ -123,7 +123,7 @@
   },
   "build": {
     "eyebrow": "Vom Einstieg bis zum Maximalausbau · Beispiel Basketball",
-    "title": "Mini, Midi, Maxi: so wächst Ihr Aufbau",
+    "title": "Für jede Hallengröße: von Mini bis Maxi",
     "sub": "Drei Beispielkonfigurationen für Basketball, vom Einstieg bis zum Maximalausbau. Alle Einheiten und Geräte hängen im selben WLAN und sind darüber synchron. Die Rollen sind frei einstellbar, jederzeit kann eine Anzeige dazukommen.",
     "wifi": "WLAN · alle synchron",
     "units": [
@@ -203,7 +203,7 @@
   },
   "roles": {
     "eyebrow": "Rollen",
-    "title": "Jedes GAMiq kann jede Aufgabe im Spiel übernehmen",
+    "title": "Für jede Aufgabe: jedes GAMiq in jeder Rolle",
     "sub": "Konfigurieren Sie Ihr individuelles Setup für Spieler und Zuschauer aus baugleichen Einheiten. Spielleitung und Kampfgericht steuern die Einheiten drahtlos über WLAN.",
     "th": [
       "Rolle",
@@ -278,7 +278,7 @@
   },
   "open": {
     "eyebrow": "Offen & Anleitung",
-    "title": "Nachvollziehbar und gut dokumentiert",
+    "title": "Für Tüftler: offen und gut dokumentiert",
     "cards": [
       {
         "t": "Anleitung",
@@ -299,7 +299,7 @@
   },
   "contact": {
     "eyebrow": "Kontakt",
-    "title": "Sprechen Sie uns an",
+    "title": "Für Ihre Fragen: sprechen Sie uns an",
     "sub": "Erzählen Sie kurz von Ihrem Verein und Ihrer Halle. Dann besprechen wir, was Sie brauchen.",
     "ticks": [
       "Antwort per E-Mail, keine Weitergabe, keine Werbung",
