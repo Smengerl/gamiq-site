@@ -253,7 +253,7 @@
   },
   "operate": {
     "eyebrow": "Bedienung",
-    "title": "Die ganze Spielleitung kann mittels ihrer Handys steuern",
+    "title": "Für die Spielleitung: alles steuerbar per Handy",
     "ticks": [
       "Wettkampfleitung und Hallenverwaltung können gleichzeitig stattfindende Spiele einrichten und verwalten",
       "Die verschiedenen Aufgaben im Kampfgericht eines Spiels erhalten alle ihre rollenspezifische Bedienung",
@@ -263,7 +263,7 @@
   },
   "hardware": {
     "eyebrow": "Hardware",
-    "title": "Robust, stapelbar, selbst zu reparieren",
+    "title": "Für die Halle: robust, stapelbar, aufhängbar",
     "sub": "Gehäuse aus PETG, Aufbau aus Standardkomponenten, für Ihren Verein anpassbar.",
     "ticks": [
       "Robustes, reparierbares Gehäuse aus PETG",

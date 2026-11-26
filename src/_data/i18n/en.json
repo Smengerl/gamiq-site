@@ -253,7 +253,7 @@
   },
   "operate": {
     "eyebrow": "Operation",
-    "title": "The whole game management can operate with their phones",
+    "title": "For the game management: everything controlled by phone",
     "ticks": [
       "Competition management and hall management can set up and manage games that take place at the same time",
       "The different tasks of the table crew of a game each get their own role-specific controls",
@@ -263,7 +263,7 @@
   },
   "hardware": {
     "eyebrow": "Hardware",
-    "title": "Rugged, stackable, repairable by yourself",
+    "title": "For the hall: robust, stackable, hangable",
     "sub": "Housing made of PETG, built from standard components, adaptable to your club.",
     "ticks": [
       "Robust, repairable PETG housing",
