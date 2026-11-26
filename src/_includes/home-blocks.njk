@@ -71,7 +71,7 @@
 
 <section id="hardware"><div class="wrap">
  <div class="split"><div><div class="eyebrow">{{ t.hardware.eyebrow }}</div><h2>{{ t.hardware.title }}</h2><p class="sub">{{ t.hardware.sub }}</p>
-  <ul class="tick">{% for i in t.hardware.ticks %}<li><b>{{ i.t }}</b> – {{ i.d }}</li>{% endfor %}</ul><a class="btn s" href="hardware/">{{ t.hardware.more }}</a></div>
+  <ul class="tick">{% for i in t.hardware.ticks %}<li>{{ i }}</li>{% endfor %}</ul><a class="btn s" href="hardware/">{{ t.hardware.more }}</a></div>
   <div class="photo"><img src="../assets/photos/stacked.jpg" alt="{{ t.hardware.alt }}" width="1200" height="900" loading="lazy"></div></div></div></section>
 
 <section id="offen" class="alt"><div class="wrap">

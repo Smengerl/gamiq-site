@@ -266,30 +266,12 @@
     "title": "Robust, stapelbar, selbst zu reparieren",
     "sub": "Gehäuse aus PETG, Aufbau aus Standardkomponenten, für Ihren Verein anpassbar.",
     "ticks": [
-      {
-        "t": "Robust und reparierbar",
-        "d": "Gehäuse aus PETG, einzelne Teile lassen sich tauschen"
-      },
-      {
-        "t": "Stapelbar",
-        "d": "Einheiten lassen sich platzsparend für den Transport stapeln"
-      },
-      {
-        "t": "Automatisch ausrichtend",
-        "d": "die Anzeige erkennt ihre Lage und dreht das Bild richtig"
-      },
-      {
-        "t": "Aufhängbar oder stehend nutzbar",
-        "d": "am Haken an Wand oder Decke, oder auf dem Tisch"
-      },
-      {
-        "t": "Handelsübliche Standardkomponenten",
-        "d": "einzeln nachkaufbar, ohne Spezialplatine"
-      },
-      {
-        "t": "Personalisierbar",
-        "d": "mit dem Logo Ihres Vereins im Standby"
-      }
+      "Robustes, reparierbares Gehäuse aus PETG",
+      "Stapelbar für den Transport",
+      "Richtet die Anzeige automatisch aus",
+      "Hängend oder stehend nutzbar",
+      "Handelsübliche Standardkomponenten, einzeln nachkaufbar",
+      "Mit dem Logo Ihres Vereins personalisierbar"
     ],
     "alt": "Zwei gestapelte GAMiq-Einheiten",
     "more": "Mehr zur Hardware →"
