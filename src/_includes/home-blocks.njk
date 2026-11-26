@@ -40,7 +40,7 @@
  <div class="max">
   <div class="ch"><h3>{{ t.build.maxi.name }}</h3><span class="claim">{{ t.build.maxi.claim }}</span></div>
   {%- set ps = ["shot_run","home","clock_run","guest","shot_run"] %}
-  <div class="p5">{% for u in t.build.units %}<figure>{{ pnl(ps[loop.index0], "") }}<figcaption><b>{{ u.t }}</b>{{ u.d }}</figcaption></figure>{% endfor %}</div>
+  <div class="p5">{% for u in t.build.units %}<figure>{{ pnl(ps[loop.index0], "") }}<figcaption><b>{{ u.t }}</b><span class="d">{{ u.d }}</span></figcaption></figure>{% endfor %}</div>
   <div class="net"><svg viewBox="0 0 100 150" preserveAspectRatio="none" aria-hidden="true">
    <line x1="9.3" y1="0" x2="9.3" y2="24"/><line x1="29.65" y1="0" x2="29.65" y2="24"/><line x1="50" y1="0" x2="50" y2="24"/><line x1="70.35" y1="0" x2="70.35" y2="24"/><line x1="90.7" y1="0" x2="90.7" y2="24"/>
    <line x1="9.3" y1="24" x2="90.7" y2="24"/><line x1="50" y1="24" x2="50" y2="52"/><line x1="50" y1="116" x2="50" y2="150"/><path d="M50 116 L30 150"/><path d="M50 116 L70 150"/></svg>
