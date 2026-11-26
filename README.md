@@ -4,6 +4,10 @@ The public website of GAMiq for interested clubs. Concept, content and design: `
 Static pages built with Eleventy; texts in `src/_data/i18n/<lang>.json` (one file per language, the list of files is the list of languages);
 design tokens of the phone page, panel renders, phone screenshots and photos are copied from the gamiq repository.
 
+To sync these files, the complete gamiq repository must be checked out alongside this repository at `../gamiq`.
+For a checkout elsewhere, set `GAMIQ_REPO` to its path (for example, `GAMIQ_REPO="/path/to/gamiq" npm run sync`).
+The checked-in assets can be used without syncing or having a gamiq checkout.
+
 ```bash
 npm install
 npm run sync     # copy tokens and media from ../gamiq (or GAMIQ_REPO=<path>); commit the result
