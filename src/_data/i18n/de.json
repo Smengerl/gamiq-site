@@ -26,7 +26,7 @@
     "lead": "Vernetzte LED-Anzeigen, die für jede Sportart zeigen, was zählt: Wurfuhr, Spielzeit, Punkte, Ballbesitz. Jede Anzeige hat ihre Rolle, bedient wird mit dem Handy im Browser. Ohne Server, ohne App, ohne Lizenzkosten.",
     "cta1": "Kontakt aufnehmen",
     "cta2": "So läuft ein Spieltag",
-    "note": "Wir klären gemeinsam, was für euren Verein passt: Bausatz, fertige Geräte oder etwas dazwischen.",
+    "note": "Wir klären gemeinsam, was für Ihren Verein passt: Bausatz, fertige Geräte oder etwas dazwischen.",
     "same": "Gleiche Hardware, andere Spielart:",
     "chips": [
       "Basketball",
@@ -299,15 +299,15 @@
   },
   "contact": {
     "eyebrow": "Kontakt",
-    "title": "Sprecht uns an",
-    "sub": "Erzählt kurz von eurem Verein und eurer Halle. Dann besprechen wir, was ihr braucht.",
+    "title": "Sprechen Sie uns an",
+    "sub": "Erzählen Sie kurz von Ihrem Verein und Ihrer Halle. Dann besprechen wir, was Sie brauchen.",
     "ticks": [
       "Antwort per E-Mail, keine Weitergabe, keine Werbung",
-      "Die Mail entsteht in eurem Mailprogramm"
+      "Die Mail entsteht in Ihrem Mailprogramm"
     ],
     "f_club": "Verein / Halle",
     "f_fields": "Wie viele Spielfelder, welche Sportart?",
-    "f_wish": "Was wünscht ihr euch?",
+    "f_wish": "Was wünschen Sie sich?",
     "btn": "E-Mail vorbereiten",
     "subject": "Anfrage GAMiq",
     "address": "gerlx.studio@gmail.com"
@@ -320,13 +320,13 @@
   },
   "pg_clubs": {
     "eyebrow": "Für Vereine",
-    "title": "Was euer Verein davon hat",
+    "title": "Was Ihr Verein davon hat",
     "sub": "GAMiq ist ein Anzeigesystem, das ein Verein selbst aufstellt und bedient: ohne Techniker, ohne Server, ohne App.",
     "why_title": "Warum Vereine es einsetzen",
     "why": [
       {
         "t": "Ein Gerät, mehrere Sportarten",
-        "d": "Dieselbe Hardware zeigt Basketball, Zirkeltraining und Zeittraining. Weitere Spielarten sind in Planung und kommen per Update auf die Geräte, die ihr schon habt."
+        "d": "Dieselbe Hardware zeigt Basketball, Zirkeltraining und Zeittraining. Weitere Spielarten sind in Planung und kommen per Update auf die Geräte, die Sie schon haben."
       },
       {
         "t": "Aufbauen ohne Fachwissen",
@@ -341,7 +341,7 @@
         "d": "Steuern Sie alle verbundenen Anzeigen vom Tablet oder Handy, mit bis zu 3 Geräten gleichzeitig, zum Beispiel Wurfuhr, Spielzeit und Punkte an drei Kampfrichter verteilt."
       }
     ],
-    "need_title": "Das braucht ihr",
+    "need_title": "Das brauchen Sie",
     "need": [
       "Eine oder mehrere Anzeigen, je mit Strom (USB oder eingebautes Netzteil). Bis zu fünf Anzeigen pro Spiel, zwei sind der Normalfall.",
       "Ein WLAN mit 2,4 GHz, in dem Anzeigen und Handys sind. Ein Handy-Hotspot geht auch.",
@@ -374,7 +374,7 @@
     "faq": [
       {
         "q": "Brauchen wir Internet in der Halle?",
-        "a": "Nein. Es gibt keinen Server und keine Cloud, alles läuft auf den Anzeigen. Nur wenn ihr ein Update einspielt, holt sich die Anzeige die neue Version über das WLAN."
+        "a": "Nein. Es gibt keinen Server und keine Cloud, alles läuft auf den Anzeigen. Nur wenn Sie ein Update einspielen, holt sich die Anzeige die neue Version über das WLAN."
       },
       {
         "q": "Wie viele Handys können gleichzeitig bedienen?",
@@ -382,7 +382,7 @@
       },
       {
         "q": "Welche Sportarten gibt es?",
-        "a": "Heute Basketball, Zirkeltraining und Zeittraining. Weitere sind in Planung, noch ohne Termin. Schreibt uns, welche Sportart ihr braucht."
+        "a": "Heute Basketball, Zirkeltraining und Zeittraining. Weitere sind in Planung, noch ohne Termin. Schreiben Sie uns, welche Sportart Sie brauchen."
       },
       {
         "q": "Ist es für Ligaspiele zugelassen?",
@@ -398,11 +398,11 @@
       },
       {
         "q": "Was kostet es?",
-        "a": "Das hängt davon ab, was ihr braucht: Bausatz, fertige Geräte oder etwas dazwischen. Schreibt uns, dann klären wir das gemeinsam."
+        "a": "Das hängt davon ab, was Sie brauchen: Bausatz, fertige Geräte oder etwas dazwischen. Schreiben Sie uns, dann klären wir das gemeinsam."
       }
     ],
-    "cta_title": "Passt das zu eurem Verein?",
-    "cta_text": "Erzählt kurz von eurem Verein und eurer Halle.",
+    "cta_title": "Passt das zu Ihrem Verein?",
+    "cta_text": "Erzählen Sie kurz von Ihrem Verein und Ihrer Halle.",
     "cta_btn": "Kontakt aufnehmen"
   },
   "pg_hardware": {
@@ -438,13 +438,13 @@
       }
     ],
     "open_title": "Selbst bauen",
-    "open_text": "Druckdateien und Stückliste sind offen. Wie ihr sie bekommt, steht auf der Seite Offen und dokumentiert.",
+    "open_text": "Druckdateien und Stückliste sind offen. Wie Sie sie bekommen, steht auf der Seite Offen und dokumentiert.",
     "open_btn": "Offen und dokumentiert →"
   },
   "pg_open": {
     "eyebrow": "Offen & Anleitung",
     "title": "Offen und dokumentiert",
-    "sub": "GAMiq ist frei. Ihr könnt nachlesen, wie es funktioniert, es selbst bauen und anpassen.",
+    "sub": "GAMiq ist frei. Sie können nachlesen, wie es funktioniert, es selbst bauen und anpassen.",
     "lic_title": "Lizenzen",
     "lic": [
       {
@@ -470,7 +470,7 @@
       }
     ],
     "src_title": "Quelltext und Druckdateien",
-    "src_text": "Quelltext, Druckdateien und Stückliste sind nicht öffentlich einsehbar. Wir geben sie auf Anfrage heraus, schreibt uns.",
+    "src_text": "Quelltext, Druckdateien und Stückliste sind nicht öffentlich einsehbar. Wir geben sie auf Anfrage heraus, schreiben Sie uns.",
     "src_btn": "Anfrage per E-Mail"
   },
   "pg_imprint": {
@@ -530,13 +530,13 @@
       {
         "t": "Kontakt per E-Mail",
         "p": [
-          "Die Schaltfläche im Kontaktblock öffnet nur euer eigenes Mailprogramm mit einer vorbereiteten Nachricht. Die Seite sendet und speichert nichts. Wenn ihr mir eine E-Mail schreibt, verarbeite ich eure Angaben, um die Anfrage zu beantworten (Art. 6 Abs. 1 lit. b oder f DSGVO), und lösche sie, wenn die Sache erledigt ist und keine Aufbewahrungspflicht besteht."
+          "Die Schaltfläche im Kontaktblock öffnet nur Ihr eigenes Mailprogramm mit einer vorbereiteten Nachricht. Die Seite sendet und speichert nichts. Wenn Sie mir eine E-Mail schreiben, verarbeite ich Ihre Angaben, um die Anfrage zu beantworten (Art. 6 Abs. 1 lit. b oder f DSGVO), und lösche sie, wenn die Sache erledigt ist und keine Aufbewahrungspflicht besteht."
         ]
       },
       {
         "t": "Eure Rechte",
         "p": [
-          "Ihr habt das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit und Widerspruch. Schreibt dazu an die Adresse oben. Beschwerden könnt ihr an eine Datenschutz-Aufsichtsbehörde richten, in Niedersachsen an die Landesbeauftragte für den Datenschutz."
+          "Sie haben das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit und Widerspruch. Schreiben Sie dazu an die Adresse oben. Beschwerden können Sie an eine Datenschutz-Aufsichtsbehörde richten, in Niedersachsen an die Landesbeauftragte für den Datenschutz."
         ]
       }
     ]
