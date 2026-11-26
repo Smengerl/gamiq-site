@@ -2,7 +2,7 @@
 <html lang="{{ P.L.lang }}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{{ title }} – GAMiq</title>{% if noindex %}<meta name="robots" content="noindex">{% endif %}
 {% for X in languages %}<link rel="alternate" hreflang="{{ X.lang }}" href="../../{{ X.lang }}/{{ P.slug }}/">
-{% endfor %}<link rel="stylesheet" href="../../css/tokens.css"><link rel="stylesheet" href="../../css/site.css">
+{% endfor %}<link rel="stylesheet" href="../../css/tokens.css?v={{ build }}"><link rel="stylesheet" href="../../css/site.css?v={{ build }}">
 </head><body>
 {% set t = P.L.t %}{% set up = "../" %}{% set langhref = "../../" + t.nav.other_lang_code + "/" + P.slug + "/" %}{% include "nav.njk" %}
 {{ content | safe }}

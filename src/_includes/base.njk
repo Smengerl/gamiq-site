@@ -3,7 +3,7 @@
 <title>{{ L.t.meta.title }}</title>
 <meta name="description" content="{{ L.t.meta.description }}">
 {% for X in languages %}<link rel="alternate" hreflang="{{ X.lang }}" href="../{{ X.lang }}/">
-{% endfor %}<link rel="stylesheet" href="../css/tokens.css"><link rel="stylesheet" href="../css/site.css">
+{% endfor %}<link rel="stylesheet" href="../css/tokens.css?v={{ build }}"><link rel="stylesheet" href="../css/site.css?v={{ build }}">
 </head><body>
 {% set t = L.t %}{% set up = "" %}{% set langhref = "../" + t.nav.other_lang_code + "/" %}{% include "nav.njk" %}
 {{ content | safe }}

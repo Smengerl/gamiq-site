@@ -167,7 +167,8 @@ header.pghead{padding:var(--sp-12) 0 var(--sp-6)}
 .flat .imgs,.flat .caps{grid-template-columns:repeat(var(--u),minmax(0,1fr)) var(--hub) minmax(0,var(--tfr))}
 .flat .caps b{overflow-wrap:anywhere}
 @media(max-width:600px){
- .max{padding:var(--sp-6) var(--sp-3)}.p5{gap:var(--sp-2)}.p5 figcaption .d{display:none}.p5 figcaption{font-size:11px}
+ .max{padding:var(--sp-6) var(--sp-3)}.p5{gap:var(--sp-2)}.p5 figcaption .d{display:none}.p5 figcaption{font-size:10.5px}.p5 figcaption b{font-size:10.5px;letter-spacing:-.01em}
  .flat{--hub:36px;--tw:1.5;--tfr:1.5fr}.flat .wifi{width:30px;height:30px}.flat .wifi svg{width:17px;height:17px}.flat .cell{padding:0 3px}.flat .caps b{font-size:9.5px;padding:0}.cfg p{margin-bottom:var(--sp-4)}
 }
+@media(max-width:700px){table.rl,table.rl tbody{display:block;width:100%}table.rl td:first-child,table.rl td.ui{width:auto}table.rl td.ui .phc{width:min(190px,60%)}table.rl td b{margin-bottom:var(--sp-1)}.sx .bub{width:calc((100% - 4*var(--sp-2))/5);max-width:90px}}
 html,body{overflow-x:clip}
