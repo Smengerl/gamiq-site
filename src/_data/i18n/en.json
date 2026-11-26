@@ -231,21 +231,21 @@
       },
       {
         "t": "Circuit training",
-        "d": "One role per station.",
+        "d": "Place one GAMiq at each station – and off you go!",
         "rows": [
           {
             "t": "Circuit training",
-            "d": "Each display shows a colour and the countdown to the change; then the colours move one station on. Up to five stations."
+            "d": "Place one GAMiq at each station. A countdown runs to the station change, then the colour moves on to the next station."
           }
         ]
       },
       {
         "t": "Timed training",
-        "d": "One role, three views.",
+        "d": "For warm-up, fitness and cardio",
         "rows": [
           {
             "t": "Timed training",
-            "d": "A time counts up to a target and a bar fills. As time with bar, as bar or as large minutes."
+            "d": "A clock counts up to the preset time."
           }
         ]
       }

@@ -231,21 +231,21 @@
       },
       {
         "t": "Zirkeltraining",
-        "d": "Eine Rolle pro Station.",
+        "d": "Ein GAMiq an jeder Station platzieren – los geht's!",
         "rows": [
           {
             "t": "Zirkeltraining",
-            "d": "Jede Anzeige eine Farbe und der Countdown bis zum Wechsel; dann wandern die Farben eine Station weiter. Bis zu fünf Stationen."
+            "d": "An jeder Station ein GAMiq platzieren. Countdown bis zum Wechsel der Stationen und dann wandert die Farbe zur nächsten Station."
           }
         ]
       },
       {
         "t": "Zeittraining",
-        "d": "Eine Rolle, drei Darstellungen.",
+        "d": "Für Warmup, Fitness und Cardio",
         "rows": [
           {
             "t": "Zeittraining",
-            "d": "Eine Zeit zählt bis zum Ziel, ein Balken füllt sich. Als Zeit mit Balken, als Balken oder als große Minutenziffer."
+            "d": "Uhr zählt bis zur vorgegebenen Zeit."
           }
         ]
       }

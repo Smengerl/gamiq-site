@@ -59,7 +59,7 @@
  {% for b in t.roles.boxes %}{% set bi = loop.index0 %}
  <div class="rolebox card"><h3>{{ b.t }}</h3><p>{{ b.d }}</p>
   <table class="rl"><thead><tr>{% for h in t.roles.th %}<th>{{ h }}</th>{% endfor %}</tr></thead><tbody>
-  {% for r in b.rows %}{% set m = rows[bi][loop.index0] %}<tr><td><b>{{ r.t }}</b><span>{{ r.d }}</span></td><td class="ui">{{ phone(m.w, r.t) }}</td><td><div class="sx w">{% for p in m.p %}{{ pnl(p, "") }}{% endfor %}</div></td></tr>{% endfor %}
+  {% for r in b.rows %}{% set m = rows[bi][loop.index0] %}<tr><td>{% if b.rows | length > 1 %}<b>{{ r.t }}</b>{% endif %}<span>{{ r.d }}</span></td><td class="ui">{{ phone(m.w, r.t) }}</td><td><div class="sx w">{% for p in m.p %}{{ pnl(p, "") }}{% endfor %}</div></td></tr>{% endfor %}
   </tbody></table></div>{% endfor %}
 </div></section>
 
