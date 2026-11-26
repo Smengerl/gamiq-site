@@ -264,11 +264,32 @@
   "hardware": {
     "eyebrow": "Hardware",
     "title": "Rugged, stackable, repairable by yourself",
-    "sub": "64×64 LED matrix, ESP32, 3D-printed enclosure. The colour of the corners shows which unit is which.",
+    "sub": "Housing made of PETG, built from standard components, adaptable to your club.",
     "ticks": [
-      "On a table, on a wall or on a ceiling",
-      "Stackable for transport",
-      "Open design: print files and bill of materials"
+      {
+        "t": "Robust and repairable",
+        "d": "PETG housing, single parts can be replaced"
+      },
+      {
+        "t": "Stackable",
+        "d": "units stack to save space in transport"
+      },
+      {
+        "t": "Self-aligning",
+        "d": "the display detects its orientation and turns the picture the right way"
+      },
+      {
+        "t": "Hang it up or stand it",
+        "d": "on hooks at a wall or ceiling, or on a table"
+      },
+      {
+        "t": "Standard off-the-shelf components",
+        "d": "available individually, no special board"
+      },
+      {
+        "t": "Customisable",
+        "d": "with your club's logo on standby"
+      }
     ],
     "alt": "Two stacked GAMiq units",
     "more": "More about the hardware →"

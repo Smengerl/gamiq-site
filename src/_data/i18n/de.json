@@ -264,11 +264,32 @@
   "hardware": {
     "eyebrow": "Hardware",
     "title": "Robust, stapelbar, selbst zu reparieren",
-    "sub": "64×64 LED-Matrix, ESP32, 3D-gedrucktes Gehäuse. Die Farbe der Ecken zeigt, welche Einheit welche ist.",
+    "sub": "Gehäuse aus PETG, Aufbau aus Standardkomponenten, für Ihren Verein anpassbar.",
     "ticks": [
-      "Auf dem Tisch, an der Wand oder an der Decke",
-      "Stapelbar zum Transport",
-      "Offene Bauweise: Druckdateien und Stückliste"
+      {
+        "t": "Robust und reparierbar",
+        "d": "Gehäuse aus PETG, einzelne Teile lassen sich tauschen"
+      },
+      {
+        "t": "Stapelbar",
+        "d": "Einheiten lassen sich platzsparend für den Transport stapeln"
+      },
+      {
+        "t": "Automatisch ausrichtend",
+        "d": "die Anzeige erkennt ihre Lage und dreht das Bild richtig"
+      },
+      {
+        "t": "Aufhängbar oder stehend nutzbar",
+        "d": "am Haken an Wand oder Decke, oder auf dem Tisch"
+      },
+      {
+        "t": "Handelsübliche Standardkomponenten",
+        "d": "einzeln nachkaufbar, ohne Spezialplatine"
+      },
+      {
+        "t": "Personalisierbar",
+        "d": "mit dem Logo Ihres Vereins im Standby"
+      }
     ],
     "alt": "Zwei gestapelte GAMiq-Einheiten",
     "more": "Mehr zur Hardware →"
