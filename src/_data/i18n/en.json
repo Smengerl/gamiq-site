@@ -18,7 +18,8 @@
     "privacy": "Privacy",
     "other_lang": "Deutsch",
     "other_lang_code": "de",
-    "clubs": "For clubs"
+    "features": "Features",
+    "faq": "FAQ"
   },
   "hero": {
     "eyebrow": "The display system for halls and clubs",
@@ -66,28 +67,28 @@
     "title": "For your club: six good reasons",
     "items": [
       {
-        "t": "One system, any game type",
-        "d": "The platform is general; each game type brings its rules, display and controls. The game type is chosen on the phone."
+        "t": "One system, every game type",
+        "d": "Basketball, circuit training and timed training are included, more can follow. All units are identical and take on any task. Start with one display and grow to five. New game types arrive by update."
       },
       {
-        "t": "Up to five displays, each with a role",
-        "d": "Shot clock, game time, score: the role is set on the page, not on the hardware."
+        "t": "No app, server or licence fees",
+        "d": "A phone or tablet with a browser is enough. Everything runs on the displays, without a cloud and without licence fees."
       },
       {
-        "t": "No server, no app, no licence fees",
-        "d": "Everything runs on the displays and the phone needs only a browser. The software is free; no licence fees apply."
+        "t": "Wireless instead of cables",
+        "d": "The displays connect over Wi-Fi and synchronise with each other. No cables between the units."
       },
       {
-        "t": "Up to three phones at once",
-        "d": "The table officials share the work, or one tablet operates everything."
+        "t": "Several devices at once",
+        "d": "Up to three phones or tablets operate at the same time, each with its own task."
       },
       {
-        "t": "Organises itself",
-        "d": "The displays synchronise with each other automatically, and one of them runs the game. New software arrives over Wi-Fi without a cable."
+        "t": "Flexible set-up",
+        "d": "Stackable, standing on a table or hanging from a wall or ceiling. The display aligns its picture automatically to its position."
       },
       {
-        "t": "Several courts on one Wi-Fi",
-        "d": "Each court is a system of its own; rename and move units centrally."
+        "t": "Standard parts, free licences",
+        "d": "Off-the-shelf standard components, no special circuit board. Software under GPL, print files under CC BY-SA."
       }
     ]
   },
@@ -318,93 +319,6 @@
   "stub": {
     "text": "TBD: this page follows once the preconditions of issue 472 are settled."
   },
-  "pg_clubs": {
-    "eyebrow": "For clubs",
-    "title": "What your club gets",
-    "sub": "GAMiq is a display system a club sets up and runs itself: no technician, no server, no app.",
-    "why_title": "Why clubs use it",
-    "why": [
-      {
-        "t": "One device, several sports",
-        "d": "The same hardware shows basketball, circuit training and timed training. More game types are planned and arrive by update on the units you already have."
-      },
-      {
-        "t": "Set up without expertise",
-        "d": "Put them up, switch them on, scan the QR code. The displays join the Wi-Fi and synchronise with each other automatically; no cable between units."
-      },
-      {
-        "t": "No licence fees",
-        "d": "No subscription, no cloud, no account. The software is free (GPL) and runs on the units themselves."
-      },
-      {
-        "t": "Operate by phone",
-        "d": "Control all connected displays from a tablet or phone, with up to 3 devices at once, for example shot clock, game time and score shared between three officials."
-      }
-    ],
-    "need_title": "What you need",
-    "need": [
-      "One or more displays, each with power (USB or built-in power supply). Up to five displays per game, two are the normal case.",
-      "A 2.4 GHz Wi-Fi that the displays and phones are in. A phone hotspot works too.",
-      "A phone or tablet with a browser. No app needed."
-    ],
-    "day_title": "A game day in detail",
-    "day": [
-      {
-        "t": "Set up",
-        "d": "Put it on a table or hang it from a wall or ceiling, and give it power."
-      },
-      {
-        "t": "Switch on",
-        "d": "On first start each display shows a QR code for the Wi-Fi set-up, after that it connects by itself. The displays of a hall form one system."
-      },
-      {
-        "t": "Pair the phone",
-        "d": "Scan the QR code of a display or enter the code. Only paired phones may operate."
-      },
-      {
-        "t": "Choose game type and roles",
-        "d": "On the phone, pick the game type and give each display its role: shot clock, game clock, score. This is done on the page, not at the hardware."
-      },
-      {
-        "t": "Play",
-        "d": "Start the clock, count points, reset the shot clock, all from the phone."
-      }
-    ],
-    "faq_title": "Questions and answers",
-    "faq": [
-      {
-        "q": "Do we need internet in the hall?",
-        "a": "No. There is no server and no cloud, everything runs on the displays. Only when you install an update does the display fetch the new version over Wi-Fi."
-      },
-      {
-        "q": "How many phones can operate at once?",
-        "a": "Up to three. They share the work, for example shot clock, game clock and score. A tablet can also operate everything alone."
-      },
-      {
-        "q": "Which sports are there?",
-        "a": "Today basketball, circuit training and timed training. More are planned, no date yet. Tell us which sport you need."
-      },
-      {
-        "q": "Is it approved for league games?",
-        "a": "Each game type follows the rules of its sport as far as a display can. None is officially approved. Basketball is meant for training and for leagues without the requirements of the top FIBA level."
-      },
-      {
-        "q": "Several courts in one hall?",
-        "a": "Yes. Several systems can run in the same Wi-Fi, for example one per court. On the page they can be named and kept apart."
-      },
-      {
-        "q": "German or English?",
-        "a": "Both. The operating page and the texts on the displays can be switched."
-      },
-      {
-        "q": "What does it cost?",
-        "a": "That depends on what you need: a kit, finished units or something in between. Write to us and we work it out together."
-      }
-    ],
-    "cta_title": "Does that fit your club?",
-    "cta_text": "Tell us briefly about your club and your hall.",
-    "cta_btn": "Get in touch"
-  },
   "pg_hardware": {
     "eyebrow": "Hardware",
     "title": "The display",
@@ -540,5 +454,173 @@
         ]
       }
     ]
+  },
+  "pg_features": {
+    "eyebrow": "Features",
+    "title": "Features at a glance",
+    "sub": "What GAMiq can do, sorted by topic.",
+    "groups": [
+      {
+        "t": "One system, every game type",
+        "items": [
+          {
+            "t": "One platform, every game type",
+            "d": "Basketball, circuit training and timed training are included, more can follow."
+          },
+          {
+            "t": "Any task on any display",
+            "d": "In every game type each display can take on any task, switched with a click."
+          },
+          {
+            "t": "All units identical",
+            "d": "All units are identical in build and can take on any task. One display can replace any other."
+          },
+          {
+            "t": "From one display to five",
+            "d": "Start with a single display and extend to up to five."
+          },
+          {
+            "t": "New game types by update",
+            "d": "New game types arrive over Wi-Fi as an update on the displays you already have."
+          }
+        ]
+      },
+      {
+        "t": "No app, server or licence fees",
+        "items": [
+          {
+            "t": "No app",
+            "d": "A phone or tablet is enough: no app, just a browser."
+          },
+          {
+            "t": "No server, no cloud",
+            "d": "Everything runs on the displays, without a cloud and without licence fees."
+          }
+        ]
+      },
+      {
+        "t": "Wireless instead of cables",
+        "items": [
+          {
+            "t": "Wi-Fi between the units",
+            "d": "The displays connect over Wi-Fi; no cables between the units are needed."
+          }
+        ]
+      },
+      {
+        "t": "Several devices at once",
+        "items": [
+          {
+            "t": "Up to three devices",
+            "d": "Up to three phones or tablets operate at the same time, each with its own task."
+          }
+        ]
+      },
+      {
+        "t": "Flexible set-up",
+        "items": [
+          {
+            "t": "Stackable",
+            "d": "The housings can be stacked."
+          },
+          {
+            "t": "Standing or hanging",
+            "d": "Standing on a table or hanging from hooks on a wall or ceiling."
+          },
+          {
+            "t": "Corner buffers",
+            "d": "Rubber buffers of TPU at all four corners."
+          },
+          {
+            "t": "Automatic alignment",
+            "d": "The display turns its picture automatically to match its position."
+          }
+        ]
+      },
+      {
+        "t": "Display and standard parts",
+        "items": [
+          {
+            "t": "64×64 LED matrix",
+            "d": "A 64×64 LED matrix with large digits."
+          },
+          {
+            "t": "Standard components",
+            "d": "Off-the-shelf standard components, no special circuit board."
+          }
+        ]
+      }
+    ],
+    "day_title": "A game day in detail",
+    "day": [
+      {
+        "t": "Set up",
+        "d": "Put it on a table or hang it from a wall or ceiling, and give it power."
+      },
+      {
+        "t": "Switch on",
+        "d": "On first start each display shows a QR code for the Wi-Fi set-up, after that it connects by itself. The displays of a hall form one system."
+      },
+      {
+        "t": "Pair the phone",
+        "d": "Scan the QR code of a display or enter the code. Only paired phones may operate."
+      },
+      {
+        "t": "Choose game type and roles",
+        "d": "On the phone, pick the game type and give each display its role: shot clock, game clock, score. This is done on the page, not at the hardware."
+      },
+      {
+        "t": "Play",
+        "d": "Start the clock, count points, reset the shot clock, all from the phone."
+      }
+    ],
+    "cta_title": "Does that fit your club?",
+    "cta_text": "Tell us briefly about your club and your hall.",
+    "cta_btn": "Get in touch"
+  },
+  "pg_faq": {
+    "eyebrow": "FAQ",
+    "title": "Frequently asked questions",
+    "sub": "Answers for clubs and hall operators.",
+    "need_title": "What you need",
+    "need": [
+      "One or more displays, each with power (USB or built-in power supply). Up to five displays per game, two are the normal case.",
+      "A 2.4 GHz Wi-Fi that the displays and phones are in. A phone hotspot works too.",
+      "A phone or tablet with a browser. No app needed."
+    ],
+    "faq_title": "Questions and answers",
+    "faq": [
+      {
+        "q": "Do we need internet in the hall?",
+        "a": "No. There is no server and no cloud, everything runs on the displays. Only when you install an update does the display fetch the new version over Wi-Fi."
+      },
+      {
+        "q": "How many phones can operate at once?",
+        "a": "Up to three. They share the work, for example shot clock, game clock and score. A tablet can also operate everything alone."
+      },
+      {
+        "q": "Which sports are there?",
+        "a": "Today basketball, circuit training and timed training. More are planned, no date yet. Tell us which sport you need."
+      },
+      {
+        "q": "Is it approved for league games?",
+        "a": "Each game type follows the rules of its sport as far as a display can. None is officially approved. Basketball is meant for training and for leagues without the requirements of the top FIBA level."
+      },
+      {
+        "q": "Several courts in one hall?",
+        "a": "Yes. Several systems can run in the same Wi-Fi, for example one per court. On the page they can be named and kept apart."
+      },
+      {
+        "q": "German or English?",
+        "a": "Both. The operating page and the texts on the displays can be switched."
+      },
+      {
+        "q": "What does it cost?",
+        "a": "That depends on what you need: a kit, finished units or something in between. Write to us and we work it out together."
+      }
+    ],
+    "cta_title": "Does that fit your club?",
+    "cta_text": "Tell us briefly about your club and your hall.",
+    "cta_btn": "Get in touch"
   }
 }

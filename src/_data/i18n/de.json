@@ -18,7 +18,8 @@
     "privacy": "Datenschutz",
     "other_lang": "English",
     "other_lang_code": "en",
-    "clubs": "Für Vereine"
+    "features": "Funktionen",
+    "faq": "FAQ"
   },
   "hero": {
     "eyebrow": "Das Anzeigesystem für Hallen und Vereine",
@@ -67,27 +68,27 @@
     "items": [
       {
         "t": "Ein System, jede Spielart",
-        "d": "Die Plattform ist allgemein, jede Spielart bringt Regeln, Anzeige und Bedienung mit. Die Spielart wählt man am Handy."
+        "d": "Basketball, Zirkeltraining und Zeittraining sind dabei, weitere können folgen. Alle Geräte sind baugleich und übernehmen jede Aufgabe. Starten Sie mit einer Anzeige und erweitern Sie auf bis zu fünf. Neue Spielarten kommen per Update."
       },
       {
-        "t": "Bis zu fünf Anzeigen, jede mit Rolle",
-        "d": "Wurfuhr, Spielzeit, Punkte: die Rolle stellt man auf der Seite um, nicht an der Hardware."
+        "t": "Ohne App, Server und Lizenzgebühren",
+        "d": "Handy oder Tablet mit Browser reichen. Alles läuft auf den Anzeigen, ohne Cloud und ohne Lizenzgebühren."
       },
       {
-        "t": "Kein Server, keine App, keine Lizenzkosten",
-        "d": "Alles läuft auf den Anzeigen, das Handy braucht nur einen Browser. Die Software ist frei, es fallen keine Lizenzgebühren an."
+        "t": "Funk statt Kabel",
+        "d": "Die Anzeigen verbinden sich per WLAN und synchronisieren sich selbst. Kabel zwischen den Einheiten sind nicht nötig."
       },
       {
-        "t": "Bis zu drei Handys gleichzeitig",
-        "d": "Die Kampfrichter teilen sich die Aufgaben, oder ein Tablet bedient alles."
+        "t": "Mehrere Geräte gleichzeitig",
+        "d": "Bis zu drei Handys oder Tablets steuern gleichzeitig, jedes mit seiner Aufgabe."
       },
       {
-        "t": "Selbst organisiert",
-        "d": "Die Anzeigen synchronisieren sich automatisch untereinander, eine führt das Spiel. Neue Software kommt ohne Kabel per WLAN."
+        "t": "Flexibel aufstellen",
+        "d": "Stapelbar, stehend auf dem Tisch oder hängend an Wand oder Decke. Die Anzeige richtet ihr Bild automatisch nach ihrer Lage aus."
       },
       {
-        "t": "Mehrere Felder in einem WLAN",
-        "d": "Jedes Spielfeld ist ein eigenes System, zentral umbenennen und verschieben."
+        "t": "Standardteile, freie Lizenzen",
+        "d": "Handelsübliche Standardkomponenten, ohne Spezialplatine. Software unter GPL, Druckdateien unter CC BY-SA."
       }
     ]
   },
@@ -318,93 +319,6 @@
   "stub": {
     "text": "TBD: diese Seite folgt, sobald die Vorbedingungen aus Issue 472 geklärt sind."
   },
-  "pg_clubs": {
-    "eyebrow": "Für Vereine",
-    "title": "Was Ihr Verein davon hat",
-    "sub": "GAMiq ist ein Anzeigesystem, das ein Verein selbst aufstellt und bedient: ohne Techniker, ohne Server, ohne App.",
-    "why_title": "Warum Vereine es einsetzen",
-    "why": [
-      {
-        "t": "Ein Gerät, mehrere Sportarten",
-        "d": "Dieselbe Hardware zeigt Basketball, Zirkeltraining und Zeittraining. Weitere Spielarten sind in Planung und kommen per Update auf die Geräte, die Sie schon haben."
-      },
-      {
-        "t": "Aufbauen ohne Fachwissen",
-        "d": "Aufstellen, einschalten, QR-Code scannen. Die Anzeigen verbinden sich mit dem WLAN und synchronisieren sich automatisch untereinander, ein Kabel zwischen den Einheiten braucht es nicht."
-      },
-      {
-        "t": "Keine Lizenzkosten",
-        "d": "Kein Abo, keine Cloud, kein Konto. Die Software ist frei (GPL), sie läuft auf den Geräten selbst."
-      },
-      {
-        "t": "Bedienen mit dem Handy",
-        "d": "Steuern Sie alle verbundenen Anzeigen vom Tablet oder Handy, mit bis zu 3 Geräten gleichzeitig, zum Beispiel Wurfuhr, Spielzeit und Punkte an drei Kampfrichter verteilt."
-      }
-    ],
-    "need_title": "Das brauchen Sie",
-    "need": [
-      "Eine oder mehrere Anzeigen, je mit Strom (USB oder eingebautes Netzteil). Bis zu fünf Anzeigen pro Spiel, zwei sind der Normalfall.",
-      "Ein WLAN mit 2,4 GHz, in dem Anzeigen und Handys sind. Ein Handy-Hotspot geht auch.",
-      "Ein Handy oder Tablet mit Browser. Eine App ist nicht nötig."
-    ],
-    "day_title": "Ein Spieltag im Detail",
-    "day": [
-      {
-        "t": "Aufstellen",
-        "d": "Auf den Tisch stellen oder an Wand oder Decke hängen und mit Strom versorgen."
-      },
-      {
-        "t": "Einschalten",
-        "d": "Beim ersten Start zeigt jede Anzeige einen QR-Code für die Einrichtung des WLANs, danach verbindet sie sich selbst. Die Anzeigen einer Halle bilden ein System."
-      },
-      {
-        "t": "Handy koppeln",
-        "d": "QR-Code einer Anzeige scannen oder den Code eingeben. Nur gekoppelte Handys dürfen bedienen."
-      },
-      {
-        "t": "Spielart und Rollen wählen",
-        "d": "Am Handy die Spielart wählen und jeder Anzeige ihre Rolle geben: Wurfuhr, Spielzeit, Punkte. Das geht auf der Seite, nicht an der Hardware."
-      },
-      {
-        "t": "Spielen",
-        "d": "Uhr starten, Punkte zählen, Wurfuhr zurücksetzen, alles vom Handy aus."
-      }
-    ],
-    "faq_title": "Fragen und Antworten",
-    "faq": [
-      {
-        "q": "Brauchen wir Internet in der Halle?",
-        "a": "Nein. Es gibt keinen Server und keine Cloud, alles läuft auf den Anzeigen. Nur wenn Sie ein Update einspielen, holt sich die Anzeige die neue Version über das WLAN."
-      },
-      {
-        "q": "Wie viele Handys können gleichzeitig bedienen?",
-        "a": "Bis zu drei. Sie teilen sich die Arbeit, etwa Wurfuhr, Spielzeit und Punkte. Ein Tablet kann auch alles allein bedienen."
-      },
-      {
-        "q": "Welche Sportarten gibt es?",
-        "a": "Heute Basketball, Zirkeltraining und Zeittraining. Weitere sind in Planung, noch ohne Termin. Schreiben Sie uns, welche Sportart Sie brauchen."
-      },
-      {
-        "q": "Ist es für Ligaspiele zugelassen?",
-        "a": "Jede Spielart folgt den Regeln ihrer Sportart, soweit eine Anzeige das kann. Keine ist offiziell zugelassen. Basketball ist gedacht für Training und für Ligen ohne die Vorgaben der höchsten FIBA-Stufe."
-      },
-      {
-        "q": "Mehrere Spielfelder in einer Halle?",
-        "a": "Ja. Mehrere Systeme können im selben WLAN laufen, zum Beispiel eines pro Spielfeld. Auf der Seite lassen sie sich benennen und trennen."
-      },
-      {
-        "q": "Deutsch oder Englisch?",
-        "a": "Beides. Die Bedienseite und die Texte auf den Anzeigen lassen sich umstellen."
-      },
-      {
-        "q": "Was kostet es?",
-        "a": "Das hängt davon ab, was Sie brauchen: Bausatz, fertige Geräte oder etwas dazwischen. Schreiben Sie uns, dann klären wir das gemeinsam."
-      }
-    ],
-    "cta_title": "Passt das zu Ihrem Verein?",
-    "cta_text": "Erzählen Sie kurz von Ihrem Verein und Ihrer Halle.",
-    "cta_btn": "Kontakt aufnehmen"
-  },
   "pg_hardware": {
     "eyebrow": "Hardware",
     "title": "Die Anzeige",
@@ -540,5 +454,173 @@
         ]
       }
     ]
+  },
+  "pg_features": {
+    "eyebrow": "Funktionen",
+    "title": "Funktionen im Überblick",
+    "sub": "Was GAMiq kann, nach Themen sortiert.",
+    "groups": [
+      {
+        "t": "Ein System, jede Spielart",
+        "items": [
+          {
+            "t": "Eine Plattform, jede Spielart",
+            "d": "Basketball, Zirkeltraining und Zeittraining sind dabei, weitere können folgen."
+          },
+          {
+            "t": "Jede Aufgabe auf jeder Anzeige",
+            "d": "In jeder Spielart kann jede Anzeige beliebige Aufgaben übernehmen, per Klick umgestellt."
+          },
+          {
+            "t": "Alle Geräte baugleich",
+            "d": "Alle Geräte sind baugleich und können jede Aufgabe übernehmen. Eine Anzeige ersetzt jede andere."
+          },
+          {
+            "t": "Von einer bis fünf Anzeigen",
+            "d": "Starten Sie mit einer einzigen Anzeige und erweitern Sie auf bis zu fünf."
+          },
+          {
+            "t": "Neue Spielarten per Update",
+            "d": "Neue Spielarten kommen per Update über das WLAN auf Ihre vorhandenen Anzeigen."
+          }
+        ]
+      },
+      {
+        "t": "Ohne App, Server und Lizenzgebühren",
+        "items": [
+          {
+            "t": "Keine App",
+            "d": "Handy oder Tablet reichen: keine App, nur ein Browser."
+          },
+          {
+            "t": "Kein Server, keine Cloud",
+            "d": "Alles läuft auf den Anzeigen, ohne Cloud und ohne Lizenzgebühren."
+          }
+        ]
+      },
+      {
+        "t": "Funk statt Kabel",
+        "items": [
+          {
+            "t": "WLAN zwischen den Einheiten",
+            "d": "Die Anzeigen verbinden sich per WLAN, Kabel zwischen den Einheiten sind nicht nötig."
+          }
+        ]
+      },
+      {
+        "t": "Mehrere Geräte gleichzeitig",
+        "items": [
+          {
+            "t": "Bis zu drei Geräte",
+            "d": "Bis zu drei Handys oder Tablets steuern gleichzeitig, jedes mit seiner Aufgabe."
+          }
+        ]
+      },
+      {
+        "t": "Flexibel aufstellen",
+        "items": [
+          {
+            "t": "Stapelbar",
+            "d": "Die Gehäuse lassen sich stapeln."
+          },
+          {
+            "t": "Stehend oder hängend",
+            "d": "Auf dem Tisch stehend oder mit Haken an Wand oder Decke hängend."
+          },
+          {
+            "t": "Eckpuffer",
+            "d": "Gummipuffer aus TPU an allen vier Ecken."
+          },
+          {
+            "t": "Automatische Ausrichtung",
+            "d": "Die Anzeige richtet ihr Bild automatisch nach ihrer Lage aus."
+          }
+        ]
+      },
+      {
+        "t": "Anzeige und Standardteile",
+        "items": [
+          {
+            "t": "64×64-LED-Matrix",
+            "d": "Eine 64×64-LED-Matrix mit großen Ziffern."
+          },
+          {
+            "t": "Standardkomponenten",
+            "d": "Handelsübliche Standardkomponenten, ohne Spezialplatine."
+          }
+        ]
+      }
+    ],
+    "day_title": "Ein Spieltag im Detail",
+    "day": [
+      {
+        "t": "Aufstellen",
+        "d": "Auf den Tisch stellen oder an Wand oder Decke hängen und mit Strom versorgen."
+      },
+      {
+        "t": "Einschalten",
+        "d": "Beim ersten Start zeigt jede Anzeige einen QR-Code für die Einrichtung des WLANs, danach verbindet sie sich selbst. Die Anzeigen einer Halle bilden ein System."
+      },
+      {
+        "t": "Handy koppeln",
+        "d": "QR-Code einer Anzeige scannen oder den Code eingeben. Nur gekoppelte Handys dürfen bedienen."
+      },
+      {
+        "t": "Spielart und Rollen wählen",
+        "d": "Am Handy die Spielart wählen und jeder Anzeige ihre Rolle geben: Wurfuhr, Spielzeit, Punkte. Das geht auf der Seite, nicht an der Hardware."
+      },
+      {
+        "t": "Spielen",
+        "d": "Uhr starten, Punkte zählen, Wurfuhr zurücksetzen, alles vom Handy aus."
+      }
+    ],
+    "cta_title": "Passt das zu Ihrem Verein?",
+    "cta_text": "Erzählen Sie kurz von Ihrem Verein und Ihrer Halle.",
+    "cta_btn": "Kontakt aufnehmen"
+  },
+  "pg_faq": {
+    "eyebrow": "FAQ",
+    "title": "Häufige Fragen",
+    "sub": "Antworten für Vereine und Hallenbetreiber.",
+    "need_title": "Das brauchen Sie",
+    "need": [
+      "Eine oder mehrere Anzeigen, je mit Strom (USB oder eingebautes Netzteil). Bis zu fünf Anzeigen pro Spiel, zwei sind der Normalfall.",
+      "Ein WLAN mit 2,4 GHz, in dem Anzeigen und Handys sind. Ein Handy-Hotspot geht auch.",
+      "Ein Handy oder Tablet mit Browser. Eine App ist nicht nötig."
+    ],
+    "faq_title": "Fragen und Antworten",
+    "faq": [
+      {
+        "q": "Brauchen wir Internet in der Halle?",
+        "a": "Nein. Es gibt keinen Server und keine Cloud, alles läuft auf den Anzeigen. Nur wenn Sie ein Update einspielen, holt sich die Anzeige die neue Version über das WLAN."
+      },
+      {
+        "q": "Wie viele Handys können gleichzeitig bedienen?",
+        "a": "Bis zu drei. Sie teilen sich die Arbeit, etwa Wurfuhr, Spielzeit und Punkte. Ein Tablet kann auch alles allein bedienen."
+      },
+      {
+        "q": "Welche Sportarten gibt es?",
+        "a": "Heute Basketball, Zirkeltraining und Zeittraining. Weitere sind in Planung, noch ohne Termin. Schreiben Sie uns, welche Sportart Sie brauchen."
+      },
+      {
+        "q": "Ist es für Ligaspiele zugelassen?",
+        "a": "Jede Spielart folgt den Regeln ihrer Sportart, soweit eine Anzeige das kann. Keine ist offiziell zugelassen. Basketball ist gedacht für Training und für Ligen ohne die Vorgaben der höchsten FIBA-Stufe."
+      },
+      {
+        "q": "Mehrere Spielfelder in einer Halle?",
+        "a": "Ja. Mehrere Systeme können im selben WLAN laufen, zum Beispiel eines pro Spielfeld. Auf der Seite lassen sie sich benennen und trennen."
+      },
+      {
+        "q": "Deutsch oder Englisch?",
+        "a": "Beides. Die Bedienseite und die Texte auf den Anzeigen lassen sich umstellen."
+      },
+      {
+        "q": "Was kostet es?",
+        "a": "Das hängt davon ab, was Sie brauchen: Bausatz, fertige Geräte oder etwas dazwischen. Schreiben Sie uns, dann klären wir das gemeinsam."
+      }
+    ],
+    "cta_title": "Passt das zu Ihrem Verein?",
+    "cta_text": "Erzählen Sie kurz von Ihrem Verein und Ihrer Halle.",
+    "cta_btn": "Kontakt aufnehmen"
   }
 }
