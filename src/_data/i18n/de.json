@@ -551,29 +551,6 @@
         ]
       }
     ],
-    "day_title": "Ein Spieltag im Detail",
-    "day": [
-      {
-        "t": "Aufstellen",
-        "d": "Auf den Tisch stellen oder an Wand oder Decke hängen und mit Strom versorgen."
-      },
-      {
-        "t": "Einschalten",
-        "d": "Beim ersten Start zeigt jede Anzeige einen QR-Code für die Einrichtung des WLANs, danach verbindet sie sich selbst. Die Anzeigen einer Halle bilden ein System."
-      },
-      {
-        "t": "Handy koppeln",
-        "d": "QR-Code einer Anzeige scannen oder den Code eingeben. Nur gekoppelte Handys dürfen bedienen."
-      },
-      {
-        "t": "Spielart und Rollen wählen",
-        "d": "Am Handy die Spielart wählen und jeder Anzeige ihre Rolle geben: Wurfuhr, Spielzeit, Punkte. Das geht auf der Seite, nicht an der Hardware."
-      },
-      {
-        "t": "Spielen",
-        "d": "Uhr starten, Punkte zählen, Wurfuhr zurücksetzen, alles vom Handy aus."
-      }
-    ],
     "cta_title": "Passt das zu Ihrem Verein?",
     "cta_text": "Erzählen Sie kurz von Ihrem Verein und Ihrer Halle.",
     "cta_btn": "Kontakt aufnehmen"

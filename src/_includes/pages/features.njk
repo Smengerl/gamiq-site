@@ -1,4 +1,3 @@
 <header class="pghead"><div class="wrap"><div class="eyebrow">{{ pg.eyebrow }}</div><h1 style="font-size:var(--fs-36)">{{ pg.title }}</h1><p class="lead">{{ pg.sub }}</p></div></header>
 {% for g in pg.groups %}<section{% if loop.index0 % 2 == 1 %} class="alt"{% endif %}><div class="wrap"><h2>{{ g.t }}</h2><div class="grid">{% for i in g.items %}<div class="card"><b>{{ i.t }}</b><p>{{ i.d }}</p></div>{% endfor %}</div></div></section>
-{% endfor %}<section{% if pg.groups | length % 2 == 1 %} class="alt"{% endif %}><div class="wrap"><h2>{{ pg.day_title }}</h2><ol class="steps five">{% for i in pg.day %}<li><b>{{ i.t }}</b><span>{{ i.d }}</span></li>{% endfor %}</ol></div></section>
-<section{% if pg.groups | length % 2 == 0 %} class="alt"{% endif %}><div class="wrap"><h2>{{ pg.cta_title }}</h2><p class="sub">{{ pg.cta_text }}</p><a class="btn p" href="../#kontakt">{{ pg.cta_btn }}</a></div></section>
+{% endfor %}<section{% if pg.groups | length % 2 == 1 %} class="alt"{% endif %}><div class="wrap"><h2>{{ pg.cta_title }}</h2><p class="sub">{{ pg.cta_text }}</p><a class="btn p" href="../#kontakt">{{ pg.cta_btn }}</a></div></section>

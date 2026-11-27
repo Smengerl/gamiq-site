@@ -551,29 +551,6 @@
         ]
       }
     ],
-    "day_title": "A game day in detail",
-    "day": [
-      {
-        "t": "Set up",
-        "d": "Put it on a table or hang it from a wall or ceiling, and give it power."
-      },
-      {
-        "t": "Switch on",
-        "d": "On first start each display shows a QR code for the Wi-Fi set-up, after that it connects by itself. The displays of a hall form one system."
-      },
-      {
-        "t": "Pair the phone",
-        "d": "Scan the QR code of a display or enter the code. Only paired phones may operate."
-      },
-      {
-        "t": "Choose game type and roles",
-        "d": "On the phone, pick the game type and give each display its role: shot clock, game clock, score. This is done on the page, not at the hardware."
-      },
-      {
-        "t": "Play",
-        "d": "Start the clock, count points, reset the shot clock, all from the phone."
-      }
-    ],
     "cta_title": "Does that fit your club?",
     "cta_text": "Tell us briefly about your club and your hall.",
     "cta_btn": "Get in touch"
