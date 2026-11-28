@@ -11,7 +11,7 @@
     "build": "Full build",
     "operate": "Operation",
     "hardware": "Hardware",
-    "open": "Open & manual",
+    "open": "Downloads",
     "contact": "Contact",
     "manual": "Manual",
     "imprint": "Imprint",
@@ -19,7 +19,8 @@
     "other_lang": "Deutsch",
     "other_lang_code": "de",
     "features": "Features",
-    "faq": "FAQ"
+    "faq": "FAQ",
+    "licences": "Licences"
   },
   "hero": {
     "eyebrow": "The display system for halls and clubs",
@@ -306,7 +307,7 @@
     "more": "Learn more →"
   },
   "open": {
-    "eyebrow": "Open & manual",
+    "eyebrow": "Downloads",
     "title": "For technicians: open and well documented",
     "sub": "GAMiq is free. You can read how it works, build it yourself and adapt it.",
     "cards": [
@@ -319,14 +320,6 @@
         "t": "Download",
         "d": "Current firmware and release notes.",
         "l": "To the releases →"
-      },
-      {
-        "t": "Software licence",
-        "d": "GPL-3.0-or-later. The software may be used, passed on and changed, as long as changes stay under the same licence."
-      },
-      {
-        "t": "Print files and pictures licence",
-        "d": "CC BY-SA 4.0. The housing, the bill of materials and the pictures of this site."
       },
       {
         "t": "Source code and print files",
@@ -390,8 +383,8 @@
       }
     ],
     "open_title": "Build it yourself",
-    "open_text": "The print files and the bill of materials are open. How to get them is on the page Open and documented.",
-    "open_btn": "Open and documented →"
+    "open_text": "The print files and the bill of materials are open. How to get them is in the chapter Downloads on the home page.",
+    "open_btn": "To the downloads →"
   },
   "pg_imprint": {
     "eyebrow": "Legal",
@@ -605,5 +598,54 @@
     "cta_title": "Does that fit your club?",
     "cta_text": "Tell us briefly about your club and your hall.",
     "cta_btn": "Get in touch"
+  },
+  "pg_licences": {
+    "eyebrow": "Legal",
+    "title": "Licences",
+    "sections": [
+      {
+        "t": "Overview",
+        "p": [
+          "The software, print files and pictures of GAMiq are published under free licences. This page says what applies to what."
+        ]
+      },
+      {
+        "t": "GAMiq software (firmware and phone page)",
+        "p": [
+          "GNU General Public License, version 3 or later (GPL-3.0-or-later). The software may be used, passed on and changed, as long as changed versions stay open under the same licence."
+        ]
+      },
+      {
+        "t": "Third-party parts of the firmware",
+        "p": [
+          "They keep their own licences, for example OFL-1.1 (fonts), LGPL-2.1 or later (Arduino core for the ESP32), Apache-2.0 (ESP-IDF, Mbed TLS), MIT and BSD (Adafruit libraries, FreeRTOS, lwIP and more). Every display shows the full list with the licence texts on its page /licenses."
+        ]
+      },
+      {
+        "t": "Print files",
+        "p": [
+          "Housing and bill of materials: Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0)."
+        ]
+      },
+      {
+        "t": "Pictures",
+        "p": [
+          "The pictures of this website (photos, renders of the displays and of the phone page) come from the GAMiq project and are under CC BY-SA 4.0."
+        ]
+      },
+      {
+        "t": "This website",
+        "p": [
+          "The source code of the website is under GPL-3.0-or-later. It uses no cookies, no tracking and no external fonts or scripts."
+        ]
+      },
+      {
+        "t": "Source code and print files",
+        "p": [
+          "Source code, print files and bill of materials are not publicly viewable. We hand them out on request: write to us through the contact form."
+        ]
+      }
+    ],
+    "contact": "To the contact form →"
   }
 }
