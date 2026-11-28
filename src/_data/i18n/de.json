@@ -19,7 +19,8 @@
     "other_lang": "English",
     "other_lang_code": "en",
     "features": "Funktionen",
-    "faq": "FAQ"
+    "faq": "FAQ",
+    "licences": "Lizenzen"
   },
   "hero": {
     "eyebrow": "Das Anzeigesystem für Hallen und Vereine",
@@ -321,14 +322,6 @@
         "l": "Zu den Releases →"
       },
       {
-        "t": "Lizenz Software",
-        "d": "GPL-3.0-or-later. Die Software darf genutzt, weitergegeben und verändert werden, solange Änderungen unter derselben Lizenz bleiben."
-      },
-      {
-        "t": "Lizenz Druckdateien und Bilder",
-        "d": "CC BY-SA 4.0. Gehäuse, Stückliste und die Bilder dieser Seite."
-      },
-      {
         "t": "Quelltext und Druckdateien",
         "d": "Nicht öffentlich einsehbar. Wir geben sie auf Anfrage heraus, schreiben Sie uns.",
         "l": "Zum Kontakt →"
@@ -605,5 +598,54 @@
     "cta_title": "Passt das zu Ihrem Verein?",
     "cta_text": "Erzählen Sie kurz von Ihrem Verein und Ihrer Halle.",
     "cta_btn": "Kontakt aufnehmen"
+  },
+  "pg_licences": {
+    "eyebrow": "Rechtliches",
+    "title": "Lizenzen",
+    "sections": [
+      {
+        "t": "Überblick",
+        "p": [
+          "Software, Druckdateien und Bilder von GAMiq sind unter freien Lizenzen veröffentlicht. Hier steht, was wofür gilt."
+        ]
+      },
+      {
+        "t": "GAMiq-Software (Firmware und Seite am Handy)",
+        "p": [
+          "GNU General Public License, Version 3 oder neuer (GPL-3.0-or-later). Die Software darf genutzt, weitergegeben und verändert werden, solange geänderte Versionen unter derselben Lizenz offen bleiben."
+        ]
+      },
+      {
+        "t": "Teile von Dritten in der Firmware",
+        "p": [
+          "Sie behalten ihre eigenen Lizenzen, zum Beispiel OFL-1.1 (Schriften), LGPL-2.1 oder neuer (Arduino-Kern für den ESP32), Apache-2.0 (ESP-IDF, Mbed TLS), MIT und BSD (Adafruit-Bibliotheken, FreeRTOS, lwIP und weitere). Die vollständige Liste mit den Lizenztexten zeigt jede Anzeige auf ihrer Seite /licenses."
+        ]
+      },
+      {
+        "t": "Druckdateien",
+        "p": [
+          "Gehäuse und Stückliste: Creative Commons Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 (CC BY-SA 4.0)."
+        ]
+      },
+      {
+        "t": "Bilder",
+        "p": [
+          "Die Bilder dieser Website (Fotos, Darstellungen der Anzeigen und der Seite am Handy) stammen aus dem GAMiq-Projekt und stehen unter CC BY-SA 4.0."
+        ]
+      },
+      {
+        "t": "Diese Website",
+        "p": [
+          "Der Quelltext der Website steht unter GPL-3.0-or-later. Sie verwendet keine Cookies, kein Tracking und keine externen Schriften oder Skripte."
+        ]
+      },
+      {
+        "t": "Quelltext und Druckdateien",
+        "p": [
+          "Quelltext, Druckdateien und Stückliste sind nicht öffentlich einsehbar. Wir geben sie auf Anfrage heraus: Schreiben Sie uns über das Kontaktformular."
+        ]
+      }
+    ],
+    "contact": "Zum Kontaktformular →"
   }
 }

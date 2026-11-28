@@ -1,0 +1,2 @@
+<header class="pghead"><div class="wrap"><div class="eyebrow">{{ pg.eyebrow }}</div><h1 style="font-size:var(--fs-36)">{{ pg.title }}</h1></div></header>
+<section><div class="wrap legal">{% for s in pg.sections %}<h2>{{ s.t }}</h2>{% for x in s.p %}<p>{{ x }}</p>{% endfor %}{% endfor %}<p><a class="btn s" href="../#kontakt">{{ pg.contact }}</a></p></div></section>
