@@ -18,4 +18,4 @@ npm run check    # i18n parity, build, links, one h1 per page, size budget
 - `src/css/tokens.css` and `src/assets/` are synced, never edited here.
 - Paths are language-neutral below `/<lang>/` (`/de/`, `/en/`); the folder name is `meta.lang` of the language file.
 - Status: skeleton with the home page in German and English; imprint, privacy and the open page are stubs until the preconditions of #472 are settled. Contact address is `TBD`.
-- Licence of the code: GPL-3.0-or-later. Pictures from the gamiq repository: CC BY-SA 4.0.
+- Licence of the code: GPL-3.0-or-later, see [`LICENSE`](LICENSE). Pictures from the gamiq repository: CC BY-SA 4.0, see [`LICENSE-pictures`](LICENSE-pictures).
