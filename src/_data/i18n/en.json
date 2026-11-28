@@ -314,17 +314,20 @@
       {
         "t": "Manual",
         "d": "Set-up, first start, update and help, with pictures of the displays.",
-        "l": "To the manual →"
+        "l": "To the manual →",
+        "href": "https://smengerl.github.io/gamiq-releases/guide.html"
       },
       {
         "t": "Download",
         "d": "Current firmware and release notes.",
-        "l": "To the releases →"
+        "l": "To the releases →",
+        "href": "https://github.com/Smengerl/gamiq-releases/releases"
       },
       {
         "t": "Source code and print files",
         "d": "Not publicly viewable. We hand them out on request; write to us.",
-        "l": "To the contact →"
+        "l": "To the contact →",
+        "href": "#kontakt"
       }
     ]
   },
