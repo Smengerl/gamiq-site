@@ -314,17 +314,20 @@
       {
         "t": "Anleitung",
         "d": "Aufbau, erster Start, Update und Hilfe, mit Bildern der Anzeigen.",
-        "l": "Zur Anleitung →"
+        "l": "Zur Anleitung →",
+        "href": "https://smengerl.github.io/gamiq-releases/anleitung.html"
       },
       {
         "t": "Download",
         "d": "Aktuelle Firmware und Release-Notes.",
-        "l": "Zu den Releases →"
+        "l": "Zu den Releases →",
+        "href": "https://github.com/Smengerl/gamiq-releases/releases"
       },
       {
         "t": "Quelltext und Druckdateien",
         "d": "Nicht öffentlich einsehbar. Wir geben sie auf Anfrage heraus, schreiben Sie uns.",
-        "l": "Zum Kontakt →"
+        "l": "Zum Kontakt →",
+        "href": "#kontakt"
       }
     ]
   },
