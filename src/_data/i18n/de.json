@@ -32,7 +32,8 @@
     "chips": [
       "Basketball",
       "Zirkeltraining",
-      "Zeittraining"
+      "Stoppuhr",
+      "Intervall"
     ],
     "planned": "weitere in Planung",
     "cap_shot": "Wurfuhr",
@@ -68,7 +69,7 @@
     "items": [
       {
         "t": "Ein System, jede Spielart",
-        "d": "Basketball, Zirkeltraining und Zeittraining sind dabei, weitere können folgen. Alle Geräte sind baugleich und übernehmen jede Aufgabe. Starten Sie mit einer Anzeige und erweitern Sie auf bis zu fünf. Neue Spielarten kommen per Update."
+        "d": "Basketball, Zirkeltraining, Stoppuhr und Intervall sind dabei, weitere können folgen. Alle Geräte sind baugleich und übernehmen jede Aufgabe. Starten Sie mit einer Anzeige und erweitern Sie auf bis zu fünf. Neue Spielarten kommen per Update."
       },
       {
         "t": "Ohne App, Server und Lizenzgebühren",
@@ -94,7 +95,7 @@
   },
   "types": {
     "eyebrow": "Spielarten",
-    "title": "Für jede Sportart: heute drei, weitere in Planung",
+    "title": "Für jede Sportart: heute vier, weitere in Planung",
     "sub": "Neue Spielarten kommen per Update über das WLAN auf die vorhandenen Anzeigen. Es braucht keine neue Hardware und kein Öffnen des Gehäuses.",
     "items": [
       {
@@ -103,11 +104,15 @@
       },
       {
         "t": "Zirkeltraining",
-        "d": "Jede Anzeige zeigt eine Farbe und den Countdown. Beim Ablauf wandern die Farben zur nächsten Station."
+        "d": "Jede Anzeige zeigt eine Farbe und den Countdown. Beim Ablauf wandern die Farben zur nächsten Station, am Handy zeigt ein Farbrad, wo welche Farbe steht."
       },
       {
-        "t": "Zeittraining",
-        "d": "Eine Zeit zählt bis zum Ziel, ein Balken füllt sich. Als Zeit, als Balken oder als große Ziffer."
+        "t": "Stoppuhr",
+        "d": "Eine Zeit zählt bis zum Ziel hoch oder bis null herunter, mit einem Balken. Als abgelaufene Zeit oder als Restzeit."
+      },
+      {
+        "t": "Intervall",
+        "d": "Arbeit, Pause und Runden: HIIT, Tabata, EMOM, Boxrunden. Das Panel wechselt mit jeder Phase die Farbe, der Ring zeigt, wie viel noch bleibt."
       }
     ],
     "soon_t": "In Planung",
@@ -236,17 +241,39 @@
         "rows": [
           {
             "t": "Zirkeltraining",
-            "d": "An jeder Station ein GAMiq platzieren. Countdown bis zum Wechsel der Stationen und dann wandert die Farbe zur nächsten Station."
+            "d": "An jeder Station ein GAMiq platzieren. Countdown bis zum Wechsel der Stationen, dann wandert die Farbe zur nächsten Station. Am Handy zeigt ein Farbrad, welche Station welche Farbe hat."
           }
         ]
       },
       {
-        "t": "Zeittraining",
+        "t": "Stoppuhr",
         "d": "Für Warmup, Fitness und Cardio",
         "rows": [
           {
-            "t": "Zeittraining",
-            "d": "Uhr zählt bis zur vorgegebenen Zeit."
+            "t": "Abgelaufene Zeit",
+            "d": "Die Uhr zählt bis zur vorgegebenen Zeit hoch, der Balken füllt sich."
+          },
+          {
+            "t": "Restzeit",
+            "d": "Die Restzeit zählt herunter, der Balken leert sich, die letzten 10 Sekunden werden rot."
+          }
+        ]
+      },
+      {
+        "t": "Intervall",
+        "d": "Für HIIT, Tabata, EMOM und Boxrunden",
+        "rows": [
+          {
+            "t": "Kombi",
+            "d": "Zeit, Runde und ein Ring, der sich in der Arbeit leert und in der Pause füllt."
+          },
+          {
+            "t": "Zeit",
+            "d": "Die Zeit in großen Ziffern auf einer Fläche in der Farbe der Phase, für das andere Hallenende."
+          },
+          {
+            "t": "Runden",
+            "d": "Die aktuelle Runde groß, dazu ein Streifen über alle Runden."
           }
         ]
       }
@@ -465,7 +492,7 @@
         "items": [
           {
             "t": "Eine Plattform, jede Spielart",
-            "d": "Basketball, Zirkeltraining und Zeittraining sind dabei, weitere können folgen."
+            "d": "Basketball, Zirkeltraining, Stoppuhr und Intervall sind dabei, weitere können folgen."
           },
           {
             "t": "Jede Aufgabe auf jeder Anzeige",
@@ -577,7 +604,7 @@
       },
       {
         "q": "Welche Sportarten gibt es?",
-        "a": "Heute Basketball, Zirkeltraining und Zeittraining. Weitere sind in Planung, noch ohne Termin. Schreiben Sie uns, welche Sportart Sie brauchen."
+        "a": "Heute Basketball, Zirkeltraining, Stoppuhr und Intervall. Weitere sind in Planung, noch ohne Termin. Schreiben Sie uns, welche Sportart Sie brauchen."
       },
       {
         "q": "Ist es für Ligaspiele zugelassen?",

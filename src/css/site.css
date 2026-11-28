@@ -88,7 +88,7 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:var(--sp-6);align-items:center}foot
 .set .bub{padding:var(--sp-2);background:#050505}
 @media(max-width:560px){.set{grid-template-columns:1fr 1fr}}
 .also{margin-top:var(--sp-4);display:flex;flex-wrap:wrap;gap:var(--sp-2);align-items:center;color:var(--muted);font-size:var(--fs-14)}
-.gt{display:grid;grid-template-columns:repeat(4,1fr);gap:var(--sp-6)}
+.gt{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--sp-6)}
 .gt .card{display:flex;flex-direction:column;gap:var(--sp-3)}
 .gt .pair{display:grid;grid-template-columns:1fr 1fr;gap:var(--sp-2)}
 .gt .pair .bub,.gt .pair img{border-radius:10px}.gt .pair .bub{padding:4px;background:#050505;filter:none;border-radius:10px}

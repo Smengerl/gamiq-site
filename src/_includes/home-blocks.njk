@@ -25,7 +25,7 @@
 <section id="spielarten"><div class="wrap">
  <div class="eyebrow">{{ t.types.eyebrow }}</div><h2>{{ t.types.title }}</h2><p class="sub">{{ t.types.sub }}</p>
  <div class="gt">
-  {%- set pairs = [["shot_run","clock_run"],["cc1","cc3"],["tb_timer","tb_digits"]] %}
+  {%- set pairs = [["shot_run","clock_run"],["cc1","cc3"],["tb_timer","tb_countdown"],["iv_work_combi","iv_rest_combi"]] %}
   {% for i in t.types.items %}<div class="card"><b>{{ i.t }}</b><div class="pair">{{ pnl(pairs[loop.index0][0], "") }}{{ pnl(pairs[loop.index0][1], "") }}</div><p>{{ i.d }}</p></div>{% endfor %}
   <div class="card soon"><b>{{ t.types.soon_t }}</b><p>{{ t.types.soon_d }}</p><div class="chips">{% for c in t.types.soon_chips %}<span class="chip">{{ c }}</span>{% endfor %}</div><p style="margin-top:auto">{{ t.types.soon_ask }} <a href="#kontakt">{{ t.types.soon_link }}</a></p></div>
  </div></div></section>
@@ -55,7 +55,8 @@
  {%- set rows = [
    [{"w":"shot","p":["shot_ready","shot_run","shot_expired"]},{"w":"game","p":["clock_ready","clock_run","clock_last","clock_end","clock_ot"]},{"w":"score","p":["score","home","guest","score_rise"]}],
    [{"w":"cc","p":["cc1","cc3","cc2","cc_big"]}],
-   [{"w":"tb","p":["tb_timer","tb_bar","tb_digits"]}] ] %}
+   [{"w":"tb","p":["tb_timer","tb_timer_pause","tb_timer_done"]},{"w":"tb","p":["tb_countdown","tb_countdown_alarm","tb_countdown_done"]}],
+   [{"w":"iv","p":["iv_prep_combi","iv_work_combi","iv_rest_combi"]},{"w":"iv","p":["iv_work_time","iv_rest_time"]},{"w":"iv","p":["iv_work_rounds","iv_rest_rounds"]}] ] %}
  {% for b in t.roles.boxes %}{% set bi = loop.index0 %}
  <div class="rolebox card"><h3>{{ b.t }}</h3><p>{{ b.d }}</p>
   <table class="rl"><thead><tr>{% for h in t.roles.th %}<th>{{ h }}</th>{% endfor %}</tr></thead><tbody>

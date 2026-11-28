@@ -32,7 +32,8 @@
     "chips": [
       "Basketball",
       "Circuit training",
-      "Timed training"
+      "Stopwatch",
+      "Interval timer"
     ],
     "planned": "more planned",
     "cap_shot": "Shot clock",
@@ -68,7 +69,7 @@
     "items": [
       {
         "t": "One system, every game type",
-        "d": "Basketball, circuit training and timed training are included, more can follow. All units are identical and take on any task. Start with one display and grow to five. New game types arrive by update."
+        "d": "Basketball, circuit training, stopwatch and interval timer are included, more can follow. All units are identical and take on any task. Start with one display and grow to five. New game types arrive by update."
       },
       {
         "t": "No app, server or licence fees",
@@ -94,7 +95,7 @@
   },
   "types": {
     "eyebrow": "Game types",
-    "title": "For every sport: three today, more planned",
+    "title": "For every sport: four today, more planned",
     "sub": "New game types arrive by update over Wi-Fi on the displays you already own. No new hardware, no opening the enclosure.",
     "items": [
       {
@@ -103,11 +104,15 @@
       },
       {
         "t": "Circuit training",
-        "d": "Each display shows a colour and the countdown. When it runs out the colours move on to the next station."
+        "d": "Each display shows a colour and the countdown. When it runs out the colours move on to the next station; on the phone a colour wheel shows where each colour stands."
       },
       {
-        "t": "Timed training",
-        "d": "A time counts up to a target and a bar fills. As time, as bar or as one large figure."
+        "t": "Stopwatch",
+        "d": "A time counts up to a target or down to zero, with a bar. As elapsed time or as time left."
+      },
+      {
+        "t": "Interval timer",
+        "d": "Work, rest and rounds: HIIT, Tabata, EMOM, boxing rounds. The panel changes colour with every phase, the ring shows how much is left."
       }
     ],
     "soon_t": "Planned",
@@ -236,17 +241,39 @@
         "rows": [
           {
             "t": "Circuit training",
-            "d": "Place one GAMiq at each station. A countdown runs to the station change, then the colour moves on to the next station."
+            "d": "Place one GAMiq at each station. A countdown runs to the station change, then the colour moves on to the next station. On the phone a colour wheel shows which station has which colour."
           }
         ]
       },
       {
-        "t": "Timed training",
+        "t": "Stopwatch",
         "d": "For warm-up, fitness and cardio",
         "rows": [
           {
-            "t": "Timed training",
-            "d": "A clock counts up to the preset time."
+            "t": "Elapsed time",
+            "d": "The clock counts up to the preset time, the bar fills."
+          },
+          {
+            "t": "Time left",
+            "d": "The time left counts down, the bar drains, the last 10 seconds turn red."
+          }
+        ]
+      },
+      {
+        "t": "Interval timer",
+        "d": "For HIIT, Tabata, EMOM and boxing rounds",
+        "rows": [
+          {
+            "t": "Combined",
+            "d": "Time, round and a ring that empties in work and fills in rest."
+          },
+          {
+            "t": "Time",
+            "d": "The time in large figures on a field in the colour of the phase, for the far end of the hall."
+          },
+          {
+            "t": "Rounds",
+            "d": "The current round large, with a strip across all rounds."
           }
         ]
       }
@@ -465,7 +492,7 @@
         "items": [
           {
             "t": "One platform, every game type",
-            "d": "Basketball, circuit training and timed training are included, more can follow."
+            "d": "Basketball, circuit training, stopwatch and interval timer are included, more can follow."
           },
           {
             "t": "Any task on any display",
@@ -577,7 +604,7 @@
       },
       {
         "q": "Which sports are there?",
-        "a": "Today basketball, circuit training and timed training. More are planned, no date yet. Tell us which sport you need."
+        "a": "Today basketball, circuit training, stopwatch and interval timer. More are planned, no date yet. Tell us which sport you need."
       },
       {
         "q": "Is it approved for league games?",
