@@ -11,7 +11,7 @@
     "build": "Ausbau",
     "operate": "Bedienung",
     "hardware": "Hardware",
-    "open": "Offen & Anleitung",
+    "open": "Downloads",
     "contact": "Kontakt",
     "manual": "Anleitung",
     "imprint": "Impressum",
@@ -307,7 +307,7 @@
     "more": "Mehr erfahren →"
   },
   "open": {
-    "eyebrow": "Offen & Anleitung",
+    "eyebrow": "Downloads",
     "title": "Für Techniker: offen und gut dokumentiert",
     "sub": "GAMiq ist frei. Sie können nachlesen, wie es funktioniert, es selbst bauen und anpassen.",
     "cards": [
@@ -383,8 +383,8 @@
       }
     ],
     "open_title": "Selbst bauen",
-    "open_text": "Druckdateien und Stückliste sind offen. Wie Sie sie bekommen, steht auf der Seite Offen und dokumentiert.",
-    "open_btn": "Offen und dokumentiert →"
+    "open_text": "Druckdateien und Stückliste sind offen. Wie Sie sie bekommen, steht im Kapitel Downloads auf der Startseite.",
+    "open_btn": "Zu den Downloads →"
   },
   "pg_imprint": {
     "eyebrow": "Rechtliches",

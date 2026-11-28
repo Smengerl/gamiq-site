@@ -11,7 +11,7 @@
     "build": "Full build",
     "operate": "Operation",
     "hardware": "Hardware",
-    "open": "Open & manual",
+    "open": "Downloads",
     "contact": "Contact",
     "manual": "Manual",
     "imprint": "Imprint",
@@ -307,7 +307,7 @@
     "more": "Learn more →"
   },
   "open": {
-    "eyebrow": "Open & manual",
+    "eyebrow": "Downloads",
     "title": "For technicians: open and well documented",
     "sub": "GAMiq is free. You can read how it works, build it yourself and adapt it.",
     "cards": [
@@ -383,8 +383,8 @@
       }
     ],
     "open_title": "Build it yourself",
-    "open_text": "The print files and the bill of materials are open. How to get them is on the page Open and documented.",
-    "open_btn": "Open and documented →"
+    "open_text": "The print files and the bill of materials are open. How to get them is in the chapter Downloads on the home page.",
+    "open_btn": "To the downloads →"
   },
   "pg_imprint": {
     "eyebrow": "Legal",
