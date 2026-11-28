@@ -91,7 +91,8 @@
         "t": "Standardteile, freie Lizenzen",
         "d": "Handelsübliche Standardkomponenten, ohne Spezialplatine. Software unter GPL, Druckdateien unter CC BY-SA."
       }
-    ]
+    ],
+    "more": "Mehr erfahren →"
   },
   "types": {
     "eyebrow": "Spielarten",
@@ -302,11 +303,12 @@
       "Mit dem Logo Ihres Vereins personalisierbar"
     ],
     "alt": "Zwei gestapelte GAMiq-Einheiten",
-    "more": "Mehr zur Hardware →"
+    "more": "Mehr erfahren →"
   },
   "open": {
     "eyebrow": "Offen & Anleitung",
     "title": "Für Techniker: offen und gut dokumentiert",
+    "sub": "GAMiq ist frei. Sie können nachlesen, wie es funktioniert, es selbst bauen und anpassen.",
     "cards": [
       {
         "t": "Anleitung",
@@ -319,9 +321,17 @@
         "l": "Zu den Releases →"
       },
       {
-        "t": "Lizenz & Quelltext",
-        "d": "Code GPL-3.0-or-later, Druckdateien CC BY-SA 4.0.",
-        "l": "Mehr →"
+        "t": "Lizenz Software",
+        "d": "GPL-3.0-or-later. Die Software darf genutzt, weitergegeben und verändert werden, solange Änderungen unter derselben Lizenz bleiben."
+      },
+      {
+        "t": "Lizenz Druckdateien und Bilder",
+        "d": "CC BY-SA 4.0. Gehäuse, Stückliste und die Bilder dieser Seite."
+      },
+      {
+        "t": "Quelltext und Druckdateien",
+        "d": "Nicht öffentlich einsehbar. Wir geben sie auf Anfrage heraus, schreiben Sie uns.",
+        "l": "Zum Kontakt →"
       }
     ]
   },
@@ -338,7 +348,8 @@
     "f_wish": "Was wünschen Sie sich?",
     "btn": "E-Mail vorbereiten",
     "subject": "Anfrage GAMiq",
-    "address": "gerlx.studio@gmail.com"
+    "address": "gerlx.studio@gmail.com",
+    "faq": "Vorab Antworten auf häufige Fragen: zu den FAQ →"
   },
   "footer": {
     "licence": "Bilder CC BY-SA 4.0"
@@ -381,38 +392,6 @@
     "open_title": "Selbst bauen",
     "open_text": "Druckdateien und Stückliste sind offen. Wie Sie sie bekommen, steht auf der Seite Offen und dokumentiert.",
     "open_btn": "Offen und dokumentiert →"
-  },
-  "pg_open": {
-    "eyebrow": "Offen & Anleitung",
-    "title": "Offen und dokumentiert",
-    "sub": "GAMiq ist frei. Sie können nachlesen, wie es funktioniert, es selbst bauen und anpassen.",
-    "lic_title": "Lizenzen",
-    "lic": [
-      {
-        "t": "Software",
-        "d": "GPL-3.0-or-later. Die Software darf genutzt, weitergegeben und verändert werden, solange Änderungen unter derselben Lizenz bleiben."
-      },
-      {
-        "t": "Druckdateien und Bilder",
-        "d": "CC BY-SA 4.0. Gehäuse, Stückliste und die Bilder dieser Seite."
-      }
-    ],
-    "get_title": "Anleitung und Downloads",
-    "cards": [
-      {
-        "t": "Anleitung",
-        "d": "Aufbau, erster Start, Update und Hilfe, mit Bildern der Anzeigen.",
-        "l": "Zur Anleitung →"
-      },
-      {
-        "t": "Download",
-        "d": "Aktuelle Firmware und Release-Notes.",
-        "l": "Zu den Releases →"
-      }
-    ],
-    "src_title": "Quelltext und Druckdateien",
-    "src_text": "Quelltext, Druckdateien und Stückliste sind nicht öffentlich einsehbar. Wir geben sie auf Anfrage heraus, schreiben Sie uns.",
-    "src_btn": "Anfrage per E-Mail"
   },
   "pg_imprint": {
     "eyebrow": "Rechtliches",
