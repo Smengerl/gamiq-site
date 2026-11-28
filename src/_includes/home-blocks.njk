@@ -20,7 +20,7 @@
 
 <section class="alt"><div class="wrap">
  <div class="eyebrow">{{ t.core.eyebrow }}</div><h2>{{ t.core.title }}</h2>{% if t.core.sub %}<p class="sub">{{ t.core.sub }}</p>{% endif %}
- <div class="grid">{% for i in t.core.items %}<div class="card"><div class="ic">{{ loop.index }}</div><b>{{ i.t }}</b><p>{{ i.d }}</p></div>{% endfor %}</div></div></section>
+ <div class="grid">{% for i in t.core.items %}<div class="card"><div class="ic">{{ loop.index }}</div><b>{{ i.t }}</b><p>{{ i.d }}</p></div>{% endfor %}</div><p style="margin-top:var(--sp-6)"><a class="btn s" href="features/">{{ t.core.more }}</a></p></div></section>
 
 <section id="spielarten"><div class="wrap">
  <div class="eyebrow">{{ t.types.eyebrow }}</div><h2>{{ t.types.title }}</h2><p class="sub">{{ t.types.sub }}</p>
@@ -78,11 +78,11 @@
 <section id="offen" class="alt"><div class="wrap">
  <div class="eyebrow">{{ t.open.eyebrow }}</div><h2>{{ t.open.title }}</h2>
  {%- set links = ["https://smengerl.github.io/gamiq-releases/" + L.lang + "/", "https://github.com/Smengerl/gamiq-releases/releases", "open/"] %}
- <div class="grid">{% for c in t.open.cards %}<div class="card"><b>{{ c.t }}</b><p>{{ c.d }}</p><p style="margin-top:12px"><a href="{{ links[loop.index0] }}">{{ c.l }}</a></p></div>{% endfor %}</div></div></section>
+ <div class="grid">{% for c in t.open.cards %}<div class="card"><b>{{ c.t }}</b><p>{{ c.d }}</p><p style="margin-top:12px"><a href="{{ links[loop.index0] }}">{{ c.l }}</a></p></div>{% endfor %}</div><p style="margin-top:var(--sp-6)"><a class="btn s" href="open/">{{ t.open.more }}</a></p></div></section>
 
 <section id="kontakt"><div class="wrap contact">
  <div><div class="eyebrow">{{ t.contact.eyebrow }}</div><h2>{{ t.contact.title }}</h2><p class="sub">{{ t.contact.sub }}</p>
-  <ul class="tick">{% for i in t.contact.ticks %}<li>{{ i }}</li>{% endfor %}</ul></div>
+  <ul class="tick">{% for i in t.contact.ticks %}<li>{{ i }}</li>{% endfor %}</ul><p><a href="faq/">{{ t.contact.faq }}</a></p></div>
  <form class="bub pad" id="cf" data-to="{{ t.contact.address }}" data-subject="{{ t.contact.subject }}">
   <label for="f1">{{ t.contact.f_club }}</label><input id="f1" name="club"><label for="f2">{{ t.contact.f_fields }}</label><input id="f2" name="fields">
   <label for="f3">{{ t.contact.f_wish }}</label><textarea id="f3" name="wish"></textarea>

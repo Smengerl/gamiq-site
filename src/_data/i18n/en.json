@@ -91,7 +91,8 @@
         "t": "Standard parts, free licences",
         "d": "Off-the-shelf standard components, no special circuit board. Software under GPL, print files under CC BY-SA."
       }
-    ]
+    ],
+    "more": "Learn more →"
   },
   "types": {
     "eyebrow": "Game types",
@@ -302,7 +303,7 @@
       "Customisable with your club's logo"
     ],
     "alt": "Two stacked GAMiq units",
-    "more": "More about the hardware →"
+    "more": "Learn more →"
   },
   "open": {
     "eyebrow": "Open & manual",
@@ -323,7 +324,8 @@
         "d": "Code GPL-3.0-or-later, print files CC BY-SA 4.0.",
         "l": "More →"
       }
-    ]
+    ],
+    "more": "Learn more →"
   },
   "contact": {
     "eyebrow": "Contact",
@@ -338,7 +340,8 @@
     "f_wish": "What do you wish for?",
     "btn": "Prepare e-mail",
     "subject": "GAMiq enquiry",
-    "address": "gerlx.studio@gmail.com"
+    "address": "gerlx.studio@gmail.com",
+    "faq": "Answers to common questions first: to the FAQ →"
   },
   "footer": {
     "licence": "Pictures CC BY-SA 4.0"
