@@ -76,9 +76,9 @@
   <div class="photo"><img src="../assets/photos/stacked.jpg" alt="{{ t.hardware.alt }}" width="1200" height="900" loading="lazy"></div></div></div></section>
 
 <section id="offen" class="alt"><div class="wrap">
- <div class="eyebrow">{{ t.open.eyebrow }}</div><h2>{{ t.open.title }}</h2>
- {%- set links = ["https://smengerl.github.io/gamiq-releases/" + L.lang + "/", "https://github.com/Smengerl/gamiq-releases/releases", "open/"] %}
- <div class="grid">{% for c in t.open.cards %}<div class="card"><b>{{ c.t }}</b><p>{{ c.d }}</p><p style="margin-top:12px"><a href="{{ links[loop.index0] }}">{{ c.l }}</a></p></div>{% endfor %}</div><p style="margin-top:var(--sp-6)"><a class="btn s" href="open/">{{ t.open.more }}</a></p></div></section>
+ <div class="eyebrow">{{ t.open.eyebrow }}</div><h2>{{ t.open.title }}</h2><p class="sub">{{ t.open.sub }}</p>
+ {%- set links = ["https://smengerl.github.io/gamiq-releases/" + L.lang + "/", "https://github.com/Smengerl/gamiq-releases/releases", "", "", "#kontakt"] %}
+ <div class="grid">{% for c in t.open.cards %}<div class="card"><b>{{ c.t }}</b><p>{{ c.d }}</p>{% if c.l %}<p style="margin-top:12px"><a href="{{ links[loop.index0] }}">{{ c.l }}</a></p>{% endif %}</div>{% endfor %}</div></div></section>
 
 <section id="kontakt"><div class="wrap contact">
  <div><div class="eyebrow">{{ t.contact.eyebrow }}</div><h2>{{ t.contact.title }}</h2><p class="sub">{{ t.contact.sub }}</p>
